@@ -1,10 +1,13 @@
 <?php
 
 namespace App\Views;
+use App\Database\Database;
+use App\Database\Install;
+use Exception;
 
 class Layout
 {
-    public static function header($title = "Iskola") {
+    public static function header($title = "Hotel") {
         echo <<<HTML
         <!DOCTYPE html>
             <head>
@@ -38,14 +41,30 @@ class Layout
 
     public static function navbar() {
         echo <<<HTML
-        <nav class="navbar">
-            <ul class="nav-list">
-                <li class="nav-button"><a href="/"><button style="button" title="Kezdőlap">Kezdőlap</button></a></li>
-                <li class="nav-button"><a href="/subjects"><button style="button" title="Tantárgyak">Tantárgyak</button></a></li>
-                <li class="nav-button"><a href="/classes"><button style="button" title="Osztályok">Osztályok</button></a></li>
-            </ul>
-        </nav>
-        HTML;
+    <nav class="navbar">
+        <ul class="nav-list">
+            <li class="nav-button"><a href="/"><button style="button" title="Kezdőlap">Kezdőlap</button></a></li>
+            <li class="nav-button"><a href="/subjects"><button style="button" title="Tantárgyak">Tantárgyak</button></a></li>
+            <li class="nav-button"><a href="/classes"><button style="button" title="Osztályok">Osztályok</button></a></li>
+            <li class="nav-button">
+                <form action="/install" method="post">
+                    <input type="hidden" name="action" value="create_database">
+                    <button type="submit" title="Adatbázis létrehozása">Adatbázis létrehozása</button>
+                </form>
+            </li>
+        </ul>
+    </nav>
+    HTML;
+
+    /*if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['action']) && $_POST['action'] === 'create_database') {
+        try {
+                $install = new Install(); // Instantiate the Install class
+                $install->createDatabase(); // Call the instance method
+                echo "Database created successfully!";
+            } catch (Exception $e) {
+                echo "Error creating database: " . $e->getMessage();
+            }
+    }*/
     }
 
     public static function footer() {

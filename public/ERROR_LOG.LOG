@@ -296,3 +296,351 @@ Stack trace:
 [30-Apr-2025 09:14:33 Europe/Berlin] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE id = ?' at line 1
 [30-Apr-2025 09:15:14 Europe/Berlin] SQLSTATE[42000]: Syntax error or access violation: 1103 Incorrect table name ''
 [30-Apr-2025 09:15:17 Europe/Berlin] SQLSTATE[42000]: Syntax error or access violation: 1103 Incorrect table name ''
+[21-May-2025 14:06:37 Europe/Berlin] SQLSTATE[HY000] [1049] Unknown database 'hotel'
+[21-May-2025 14:06:37 Europe/Berlin] PHP Fatal error:  Uncaught RuntimeException: Database connection error. in C:\xampp\htdocs\hotel0514\hotel_oop\app\Database\Database.php:34
+Stack trace:
+#0 C:\xampp\htdocs\hotel0514\hotel_oop\app\Database\Database.php(41): App\Database\Database->__construct(Array)
+#1 C:\xampp\htdocs\hotel0514\hotel_oop\app\Models\Model.php(17): App\Database\Database::getInstance()
+#2 C:\xampp\htdocs\hotel0514\hotel_oop\app\Models\ClassModel.php(13): App\Models\Model->__construct()
+#3 C:\xampp\htdocs\hotel0514\hotel_oop\app\Controllers\ClassController.php(10): App\Models\ClassModel->__construct()
+#4 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(136): App\Controllers\ClassController->__construct()
+#5 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(24): App\Routing\Router->handleGetRequests('/classes')
+#6 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(18): App\Routing\Router->dispatch('GET', '/classes')
+#7 C:\xampp\htdocs\hotel0514\hotel_oop\public\index.php(11): App\Routing\Router->handle()
+#8 {main}
+  thrown in C:\xampp\htdocs\hotel0514\hotel_oop\app\Database\Database.php on line 34
+[21-May-2025 14:17:18 Europe/Berlin] PHP Fatal error:  Uncaught Error: Typed property App\Database\Database::$pdo must not be accessed before initialization in C:\xampp\htdocs\hotel0514\hotel_oop\app\Database\Database.php:74
+Stack trace:
+#0 C:\xampp\htdocs\hotel0514\hotel_oop\app\Database\Install.php(28): App\Database\Database->execSql('CREATE DATABASE...')
+#1 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(76): App\Database\Install->createDatabase()
+#2 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(28): App\Routing\Router->handlePostRequests('/install')
+#3 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(19): App\Routing\Router->dispatch('POST', '/install')
+#4 C:\xampp\htdocs\hotel0514\hotel_oop\public\index.php(11): App\Routing\Router->handle()
+#5 {main}
+  thrown in C:\xampp\htdocs\hotel0514\hotel_oop\app\Database\Database.php on line 74
+[21-May-2025 14:24:13 Europe/Berlin] PHP Fatal error:  Uncaught Error: Typed property App\Database\Database::$pdo must not be accessed before initialization in C:\xampp\htdocs\hotel0514\hotel_oop\app\Database\Database.php:74
+Stack trace:
+#0 C:\xampp\htdocs\hotel0514\hotel_oop\app\Database\Install.php(28): App\Database\Database->execSql('CREATE DATABASE...')
+#1 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(76): App\Database\Install->createDatabase()
+#2 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(28): App\Routing\Router->handlePostRequests('/install')
+#3 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(19): App\Routing\Router->dispatch('POST', '/install')
+#4 C:\xampp\htdocs\hotel0514\hotel_oop\public\index.php(11): App\Routing\Router->handle()
+#5 {main}
+  thrown in C:\xampp\htdocs\hotel0514\hotel_oop\app\Database\Database.php on line 74
+[21-May-2025 14:29:41 Europe/Berlin] PHP Fatal error:  Uncaught Error: Typed property App\Database\Database::$pdo must not be accessed before initialization in C:\xampp\htdocs\hotel0514\hotel_oop\app\Database\Database.php:74
+Stack trace:
+#0 C:\xampp\htdocs\hotel0514\hotel_oop\app\Database\Install.php(28): App\Database\Database->execSql('CREATE DATABASE...')
+#1 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(76): App\Database\Install->createDatabase()
+#2 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(28): App\Routing\Router->handlePostRequests('/install')
+#3 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(19): App\Routing\Router->dispatch('POST', '/install')
+#4 C:\xampp\htdocs\hotel0514\hotel_oop\public\index.php(11): App\Routing\Router->handle()
+#5 {main}
+  thrown in C:\xampp\htdocs\hotel0514\hotel_oop\app\Database\Database.php on line 74
+[21-May-2025 14:29:47 Europe/Berlin] PHP Fatal error:  Uncaught Error: Typed property App\Database\Database::$pdo must not be accessed before initialization in C:\xampp\htdocs\hotel0514\hotel_oop\app\Database\Database.php:74
+Stack trace:
+#0 C:\xampp\htdocs\hotel0514\hotel_oop\app\Database\Install.php(28): App\Database\Database->execSql('CREATE DATABASE...')
+#1 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(76): App\Database\Install->createDatabase()
+#2 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(28): App\Routing\Router->handlePostRequests('/install')
+#3 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(19): App\Routing\Router->dispatch('POST', '/install')
+#4 C:\xampp\htdocs\hotel0514\hotel_oop\public\index.php(11): App\Routing\Router->handle()
+#5 {main}
+  thrown in C:\xampp\htdocs\hotel0514\hotel_oop\app\Database\Database.php on line 74
+[21-May-2025 14:33:40 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to private App\Database\Database::__construct() from scope App\Routing\Router in C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php:75
+Stack trace:
+#0 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(28): App\Routing\Router->handlePostRequests('/install')
+#1 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(19): App\Routing\Router->dispatch('POST', '/install')
+#2 C:\xampp\htdocs\hotel0514\hotel_oop\public\index.php(11): App\Routing\Router->handle()
+#3 {main}
+  thrown in C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php on line 75
+[21-May-2025 14:34:03 Europe/Berlin] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function App\Database\Database::__construct(), 0 passed in C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php on line 75 and exactly 1 expected in C:\xampp\htdocs\hotel0514\hotel_oop\app\Database\Database.php:18
+Stack trace:
+#0 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(75): App\Database\Database->__construct()
+#1 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(28): App\Routing\Router->handlePostRequests('/install')
+#2 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(19): App\Routing\Router->dispatch('POST', '/install')
+#3 C:\xampp\htdocs\hotel0514\hotel_oop\public\index.php(11): App\Routing\Router->handle()
+#4 {main}
+  thrown in C:\xampp\htdocs\hotel0514\hotel_oop\app\Database\Database.php on line 18
+[21-May-2025 14:34:32 Europe/Berlin] SQLSTATE[HY000] [1049] Unknown database 'hotel'
+[21-May-2025 14:34:32 Europe/Berlin] PHP Fatal error:  Uncaught RuntimeException: Database connection error. in C:\xampp\htdocs\hotel0514\hotel_oop\app\Database\Database.php:34
+Stack trace:
+#0 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(75): App\Database\Database->__construct()
+#1 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(28): App\Routing\Router->handlePostRequests('/install')
+#2 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(19): App\Routing\Router->dispatch('POST', '/install')
+#3 C:\xampp\htdocs\hotel0514\hotel_oop\public\index.php(11): App\Routing\Router->handle()
+#4 {main}
+  thrown in C:\xampp\htdocs\hotel0514\hotel_oop\app\Database\Database.php on line 34
+[21-May-2025 14:35:14 Europe/Berlin] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'CREATE TABLE `hotel`.`students`
+                (
+            CREATE TABLE ...' at line 2
+[21-May-2025 14:35:14 Europe/Berlin] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'CREATE TABLE `hotel`.`classes`
+                (
+            CREATE TABLE g...' at line 2
+[21-May-2025 14:35:14 Europe/Berlin] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'CREATE TABLE `hotel`.`subjects`
+                (
+            CREATE TABLE ...' at line 2
+[21-May-2025 14:35:25 Europe/Berlin] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'CREATE TABLE `hotel`.`students`
+                (
+            CREATE TABLE ...' at line 2
+[21-May-2025 14:35:25 Europe/Berlin] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'CREATE TABLE `hotel`.`classes`
+                (
+            CREATE TABLE g...' at line 2
+[21-May-2025 14:35:25 Europe/Berlin] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'CREATE TABLE `hotel`.`subjects`
+                (
+            CREATE TABLE ...' at line 2
+[21-May-2025 14:37:03 Europe/Berlin] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'CREATE TABLE `hotel`.`students`
+                (
+            CREATE TABLE ...' at line 2
+[21-May-2025 14:37:03 Europe/Berlin] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'CREATE TABLE `hotel`.`classes`
+                (
+            CREATE TABLE g...' at line 2
+[21-May-2025 14:37:03 Europe/Berlin] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'CREATE TABLE `hotel`.`subjects`
+                (
+            CREATE TABLE ...' at line 2
+[21-May-2025 14:39:13 Europe/Berlin] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'CREATE TABLE `hotel`.`students`
+                (
+            CREATE TABLE ...' at line 2
+[21-May-2025 14:39:13 Europe/Berlin] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'CREATE TABLE `hotel`.`classes`
+                (
+            CREATE TABLE g...' at line 2
+[21-May-2025 14:39:13 Europe/Berlin] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'CREATE TABLE `hotel`.`subjects`
+                (
+            CREATE TABLE ...' at line 2
+[21-May-2025 14:39:17 Europe/Berlin] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'CREATE TABLE `hotel`.`students`
+                (
+            CREATE TABLE ...' at line 2
+[21-May-2025 14:39:17 Europe/Berlin] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'CREATE TABLE `hotel`.`classes`
+                (
+            CREATE TABLE g...' at line 2
+[21-May-2025 14:39:17 Europe/Berlin] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'CREATE TABLE `hotel`.`subjects`
+                (
+            CREATE TABLE ...' at line 2
+[21-May-2025 14:40:09 Europe/Berlin] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'CREATE TABLE `hotel`.`students`
+                (
+            CREATE TABLE ...' at line 2
+[21-May-2025 14:40:09 Europe/Berlin] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'CREATE TABLE `hotel`.`classes`
+                (
+            CREATE TABLE g...' at line 2
+[21-May-2025 14:40:09 Europe/Berlin] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'CREATE TABLE `hotel`.`subjects`
+                (
+            CREATE TABLE ...' at line 2
+[21-May-2025 14:40:09 Europe/Berlin] Siker!
+[21-May-2025 14:44:14 Europe/Berlin] SQLSTATE[HY000] [1049] Unknown database 'hotel'
+[21-May-2025 14:44:14 Europe/Berlin] PHP Fatal error:  Uncaught RuntimeException: Database connection error. in C:\xampp\htdocs\hotel0514\hotel_oop\app\Database\Database.php:34
+Stack trace:
+#0 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(75): App\Database\Database->__construct()
+#1 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(28): App\Routing\Router->handlePostRequests('/install')
+#2 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(19): App\Routing\Router->dispatch('POST', '/install')
+#3 C:\xampp\htdocs\hotel0514\hotel_oop\public\index.php(11): App\Routing\Router->handle()
+#4 {main}
+  thrown in C:\xampp\htdocs\hotel0514\hotel_oop\app\Database\Database.php on line 34
+[21-May-2025 14:46:29 Europe/Berlin] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'CREATE TABLE `hotel`.`students`
+                (
+            CREATE TABLE ...' at line 2
+[21-May-2025 14:46:29 Europe/Berlin] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'CREATE TABLE `hotel`.`classes`
+                (
+            CREATE TABLE g...' at line 2
+[21-May-2025 14:46:29 Europe/Berlin] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'CREATE TABLE `hotel`.`subjects`
+                (
+            CREATE TABLE ...' at line 2
+[21-May-2025 14:46:29 Europe/Berlin] Siker!
+[21-May-2025 14:48:48 Europe/Berlin] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'CREATE TABLE `hotel`.`students`
+                (
+            CREATE TABLE ...' at line 2
+[21-May-2025 14:48:48 Europe/Berlin] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'CREATE TABLE `hotel`.`classes`
+                (
+            CREATE TABLE g...' at line 2
+[21-May-2025 14:48:48 Europe/Berlin] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'CREATE TABLE `hotel`.`subjects`
+                (
+            CREATE TABLE ...' at line 2
+[21-May-2025 14:48:48 Europe/Berlin] Siker!
+[21-May-2025 14:51:58 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function exec() on null in C:\xampp\htdocs\hotel0514\hotel_oop\app\Database\Install.php:22
+Stack trace:
+#0 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(76): App\Database\Install->createDatabase()
+#1 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(28): App\Routing\Router->handlePostRequests('/install')
+#2 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(19): App\Routing\Router->dispatch('POST', '/install')
+#3 C:\xampp\htdocs\hotel0514\hotel_oop\public\index.php(11): App\Routing\Router->handle()
+#4 {main}
+  thrown in C:\xampp\htdocs\hotel0514\hotel_oop\app\Database\Install.php on line 22
+[21-May-2025 14:52:49 Europe/Berlin] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'CREATE TABLE reservations (
+            id INT PRIMARY KEY AUTO_INCREMENT,
+...' at line 3
+[21-May-2025 14:52:49 Europe/Berlin] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'CREATE TABLE guests (
+            id INT PRIMARY KEY AUTO_INCREMENT,
+      ...' at line 3
+[21-May-2025 14:52:49 Europe/Berlin] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'CREATE TABLE rooms (
+            id INT PRIMARY KEY AUTO_INCREMENT,
+       ...' at line 3
+[21-May-2025 14:52:49 Europe/Berlin] Siker!
+[21-May-2025 14:54:47 Europe/Berlin] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'CREATE TABLE `hotel`.`students`
+                (
+            CREATE TABLE ...' at line 2
+[21-May-2025 14:54:47 Europe/Berlin] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'CREATE TABLE `hotel`.`classes`
+                (
+            CREATE TABLE g...' at line 2
+[21-May-2025 14:54:47 Europe/Berlin] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'CREATE TABLE `hotel`.`subjects`
+                (
+        Use hotel
+      ...' at line 2
+[21-May-2025 14:54:47 Europe/Berlin] Siker!
+[21-May-2025 14:58:52 Europe/Berlin] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'CREATE TABLE `hotel`.`reservations`
+                (
+            id INT PR...' at line 2
+[21-May-2025 14:58:52 Europe/Berlin] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'CREATE TABLE `hotel`.`guests`
+                (
+            CREATE TABLE gu...' at line 2
+[21-May-2025 14:58:52 Europe/Berlin] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'CREATE TABLE `hotel`.`rooms`
+                (
+            id INT PRIMARY K...' at line 2
+[21-May-2025 14:58:52 Europe/Berlin] Siker!
+[21-May-2025 15:02:04 Europe/Berlin] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ';)
+                ENGINE = InnoDB
+                DEFAULT CHARACTER SET = ...' at line 9
+[21-May-2025 15:02:04 Europe/Berlin] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'CREATE TABLE guests (
+            id INT PRIMARY KEY AUTO_INCREMENT,
+      ...' at line 3
+[21-May-2025 15:02:04 Europe/Berlin] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ';
+        )
+                ENGINE = InnoDB
+                DEFAULT CHARAC...' at line 8
+[21-May-2025 15:02:04 Europe/Berlin] Siker!
+[21-May-2025 15:04:09 Europe/Berlin] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ';)
+                ENGINE = InnoDB
+                DEFAULT CHARACTER SET = ...' at line 9
+[21-May-2025 15:04:09 Europe/Berlin] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'CREATE TABLE guests (
+            id INT PRIMARY KEY AUTO_INCREMENT,
+      ...' at line 3
+[21-May-2025 15:04:09 Europe/Berlin] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ';
+        )
+                ENGINE = InnoDB
+                DEFAULT CHARAC...' at line 8
+[21-May-2025 15:04:09 Europe/Berlin] Siker!
+[21-May-2025 15:04:24 Europe/Berlin] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'CREATE TABLE `hotel`.`reservations`
+                (
+            id INT PR...' at line 2
+[21-May-2025 15:04:24 Europe/Berlin] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'CREATE TABLE `hotel`.`guests`
+                (
+            CREATE TABLE gu...' at line 2
+[21-May-2025 15:04:24 Europe/Berlin] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'CREATE TABLE `hotel`.`rooms`
+                (
+            id INT PRIMARY K...' at line 2
+[21-May-2025 15:04:24 Europe/Berlin] Siker!
+[21-May-2025 15:05:11 Europe/Berlin] PHP Fatal error:  Constant expression contains invalid operations in C:\xampp\htdocs\hotel0514\hotel_oop\app\Database\Install.php on line 66
+[21-May-2025 15:05:50 Europe/Berlin] PHP Fatal error:  Constant expression contains invalid operations in C:\xampp\htdocs\hotel0514\hotel_oop\app\Database\Install.php on line 66
+[21-May-2025 15:06:38 Europe/Berlin] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'CREATE TABLE `hotel`.`reservations`
+                (
+            id INT PR...' at line 2
+[21-May-2025 15:06:38 Europe/Berlin] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'CREATE TABLE `hotel`.`guests`
+                (
+            CREATE TABLE gu...' at line 2
+[21-May-2025 15:06:38 Europe/Berlin] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'CREATE TABLE `hotel`.`rooms`
+                (
+            id INT PRIMARY K...' at line 2
+[21-May-2025 15:06:38 Europe/Berlin] Siker!
+[21-May-2025 15:08:32 Europe/Berlin] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'CREATE TABLE `hotel`.`reservations`
+                (
+            id INT PR...' at line 2
+[21-May-2025 15:08:32 Europe/Berlin] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'CREATE TABLE `hotel`.`guests`
+                (
+            id INT PRIMARY ...' at line 2
+[21-May-2025 15:08:32 Europe/Berlin] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'CREATE TABLE `hotel`.`rooms`
+                (
+            id INT PRIMARY K...' at line 2
+[21-May-2025 15:08:32 Europe/Berlin] Siker!
+[21-May-2025 15:15:31 Europe/Berlin] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'CREATE TABLE `hotel`.`guests`
+                (
+            id INT PRIMARY ...' at line 2
+[21-May-2025 15:15:31 Europe/Berlin] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'CREATE TABLE `hotel`.`rooms`
+                (
+            id INT PRIMARY K...' at line 2
+[21-May-2025 15:15:31 Europe/Berlin] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'CREATE TABLE `hotel`.`reservations`
+                (
+            id INT PR...' at line 2
+[21-May-2025 15:15:31 Europe/Berlin] Siker!
+[21-May-2025 15:16:44 Europe/Berlin] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'CREATE TABLE `hotel`.`guests`
+                (
+            id INT PRIMARY ...' at line 2
+[21-May-2025 15:16:44 Europe/Berlin] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'CREATE TABLE `hotel`.`rooms`
+                (
+            id INT PRIMARY K...' at line 2
+[21-May-2025 15:16:44 Europe/Berlin] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'CREATE TABLE `hotel`.`reservations`
+                (
+            id INT PR...' at line 2
+[21-May-2025 15:16:44 Europe/Berlin] Siker!
+[21-May-2025 15:17:16 Europe/Berlin] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'CREATE TABLE `hotel`.`guests`
+                (
+            id INT PRIMARY ...' at line 2
+[21-May-2025 15:17:16 Europe/Berlin] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'CREATE TABLE `hotel`.`rooms`
+                (
+            id INT PRIMARY K...' at line 2
+[21-May-2025 15:17:16 Europe/Berlin] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'CREATE TABLE `hotel`.`reservations`
+                (
+            id INT PR...' at line 2
+[21-May-2025 15:17:16 Europe/Berlin] Siker!
+[21-May-2025 15:17:44 Europe/Berlin] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'CREATE TABLE `hotel`.`guests`
+                (
+            id INT PRIMARY ...' at line 2
+[21-May-2025 15:17:44 Europe/Berlin] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'CREATE TABLE `hotel`.`rooms`
+                (
+            id INT PRIMARY K...' at line 2
+[21-May-2025 15:17:44 Europe/Berlin] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'CREATE TABLE `hotel`.`reservations`
+                (
+            id INT PR...' at line 2
+[21-May-2025 15:17:44 Europe/Berlin] Siker!
+[21-May-2025 15:18:30 Europe/Berlin] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'CREATE TABLE `hotel`.`guests`
+                (
+            id INT PRIMARY ...' at line 2
+[21-May-2025 15:18:30 Europe/Berlin] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'CREATE TABLE `hotel`.`rooms`
+                (
+            id INT PRIMARY K...' at line 2
+[21-May-2025 15:18:30 Europe/Berlin] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'CREATE TABLE `hotel`.`reservations`
+                (
+            id INT PR...' at line 2
+[21-May-2025 15:18:30 Europe/Berlin] Siker!
+[21-May-2025 15:19:53 Europe/Berlin] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'CREATE TABLE `hotel`.`guests`
+                (
+            id INT PRIMARY ...' at line 2
+[21-May-2025 15:19:53 Europe/Berlin] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'CREATE TABLE `hotel`.`rooms`
+                (
+            id INT PRIMARY K...' at line 2
+[21-May-2025 15:19:53 Europe/Berlin] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'CREATE TABLE `hotel`.`reservations`
+                (
+            id INT PR...' at line 2
+[21-May-2025 15:19:53 Europe/Berlin] Siker!
+[21-May-2025 15:26:24 Europe/Berlin] Siker!
+[21-May-2025 15:26:42 Europe/Berlin] Siker!
+[21-May-2025 15:33:22 Europe/Berlin] SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'guests' already exists
+[21-May-2025 15:33:22 Europe/Berlin] SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'rooms' already exists
+[21-May-2025 15:33:22 Europe/Berlin] SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'reservations' already exists
+[21-May-2025 15:33:22 Europe/Berlin] Siker!
+[21-May-2025 15:37:36 Europe/Berlin] SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'guests' already exists
+[21-May-2025 15:37:36 Europe/Berlin] SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'rooms' already exists
+[21-May-2025 15:37:36 Europe/Berlin] SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'reservations' already exists
+[21-May-2025 15:37:36 Europe/Berlin] Siker!
+[21-May-2025 15:37:44 Europe/Berlin] SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'guests' already exists
+[21-May-2025 15:37:44 Europe/Berlin] SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'rooms' already exists
+[21-May-2025 15:37:44 Europe/Berlin] SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'reservations' already exists
+[21-May-2025 15:37:44 Europe/Berlin] Siker!
+[21-May-2025 15:37:54 Europe/Berlin] SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'guests' already exists
+[21-May-2025 15:37:54 Europe/Berlin] SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'rooms' already exists
+[21-May-2025 15:37:54 Europe/Berlin] SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'reservations' already exists
+[21-May-2025 15:37:54 Europe/Berlin] Siker!
+[21-May-2025 15:38:00 Europe/Berlin] SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'guests' already exists
+[21-May-2025 15:38:00 Europe/Berlin] SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'rooms' already exists
+[21-May-2025 15:38:00 Europe/Berlin] SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'reservations' already exists
+[21-May-2025 15:38:00 Europe/Berlin] Siker!
+[21-May-2025 15:38:33 Europe/Berlin] SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'guests' already exists
+[21-May-2025 15:38:33 Europe/Berlin] SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'rooms' already exists
+[21-May-2025 15:38:33 Europe/Berlin] SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'reservations' already exists
+[21-May-2025 15:38:33 Europe/Berlin] Siker!
+[21-May-2025 15:40:08 Europe/Berlin] SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'guests' already exists
+[21-May-2025 15:40:08 Europe/Berlin] SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'rooms' already exists
+[21-May-2025 15:40:08 Europe/Berlin] SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'reservations' already exists
+[21-May-2025 15:40:20 Europe/Berlin] SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'guests' already exists
+[21-May-2025 15:40:20 Europe/Berlin] SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'rooms' already exists
+[21-May-2025 15:40:20 Europe/Berlin] SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'reservations' already exists
+[21-May-2025 15:42:42 Europe/Berlin] SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'guests' already exists
+[21-May-2025 15:42:42 Europe/Berlin] SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'rooms' already exists
+[21-May-2025 15:42:42 Europe/Berlin] SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'reservations' already exists
+[21-May-2025 15:43:08 Europe/Berlin] SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'guests' already exists
+[21-May-2025 15:43:08 Europe/Berlin] SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'rooms' already exists
+[21-May-2025 15:43:08 Europe/Berlin] SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'reservations' already exists

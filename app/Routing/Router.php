@@ -3,7 +3,9 @@ namespace App\Routing;
 use App\Controllers\ClassController;
 use App\Controllers\HomeController;
 use App\Controllers\SubjectController;
+use App\Database\Install;
 use App\views\Display;
+use App\Views\Layout;
 
 class Router {
     public function handle(): void
@@ -69,6 +71,11 @@ class Router {
             case '/classes/edit':
                 $classController = new ClassController();
                 $classController->edit($id);
+                break;
+            case '/install':
+                Layout::header();
+                $db = new Install();
+                $db->createDatabase();
                 break;
             default:
             $this->notFound();
