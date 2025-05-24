@@ -1,7 +1,7 @@
 <?php
 
 echo <<<HTML
-        <form method='post' action='/rooms'>
+        <form method='post' action='/reservations'>
             <fieldset>
                 <label for="name">Szoba</label>
                 <select name="room_id" id="room_id" required>
@@ -13,7 +13,6 @@ echo <<<HTML
 foreach ($instanceOfRooms as $room) {
             echo "<option value='{$room->id}'>{$room->room_number}</option>";
         }
-    $szobak = $rooms->all();
 echo <<<HTML
         </select>
         <label for="guest_id">Vendég</label>
@@ -25,15 +24,17 @@ $guestsData = $guests->all();
 foreach ($guestsData as $guest) {
     echo "<option value='$guest->id'> $guest->name </option>";
 }
+$tomorrow = date('Y-m-d', strtotime('+1 day'));
 echo <<<HTML
-                    <input type="text" name="days" id="days" placeholder='Napok száma'>
-                    <input type="text" name="start_date" id="start_date" placeholder='Kezdeti dátum'>
+                    <input type="number" min="0" name="days" id="days" placeholder='Napok száma'>
+                    <label for="date">Kezdeti dátum</label>
+                    <input type="date" name="start_date" id="start_date" min="{$tomorrow}" required>
                     <hr>
                     <button type="submit" name="btn-save">
                         <i class="fa fa-save"></i>
                         &nbsp;Mentés
                     </button>
-                    <a href="/rooms">
+                    <a href="/reservations">
                         <i class="fa fa-cancel"></i>
                         &nbsp;Mégse
                     </a>

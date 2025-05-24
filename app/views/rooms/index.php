@@ -4,7 +4,6 @@ $tableBody = "";
 foreach ($rooms as $room) {
     $tableBody .= <<<HTML
             <tr>
-                <td>{$room->id}</td>
                 <td>{$room->floor}</td>
                 <td>{$room->room_number}</td>
                 <td>{$room->capacity}</td>
@@ -29,7 +28,6 @@ $html = <<<HTML
         <table id='admin-rooms-table' class='admin-rooms-table tabla'>
             <thead>
                 <tr>
-                    <th>#</th>
                     <th>Emelet</th>
                     <th>Szám</th>
                     <th>Férőhely</th>

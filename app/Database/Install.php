@@ -118,7 +118,7 @@ class Install extends Database
             guest_id INT,
             days INT,
             start_date DATE,
-            FOREIGN KEY (room_id) REFERENCES rooms(id),
+            FOREIGN KEY (room_id) REFERENCES rooms(id) ON DELETE CASCADE,
             FOREIGN KEY (guest_id) REFERENCES guests(id) ON DELETE CASCADE";
 
         return $this->createTable($tableBody, "reservations", $dbName);

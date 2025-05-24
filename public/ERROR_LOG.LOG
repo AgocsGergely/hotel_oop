@@ -822,3 +822,745 @@ Stack trace:
 
 )
 
+[24-May-2025 18:55:00 Europe/Berlin] PHP Warning:  Undefined variable $rooms in C:\xampp\htdocs\hotel0514\hotel_oop\app\views\reservations\create.php on line 12
+[24-May-2025 18:55:00 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function all() on null in C:\xampp\htdocs\hotel0514\hotel_oop\app\views\reservations\create.php:12
+Stack trace:
+#0 C:\xampp\htdocs\hotel0514\hotel_oop\app\views\View.php(18): include()
+#1 C:\xampp\htdocs\hotel0514\hotel_oop\app\Controllers\Controller.php(27): App\views\View::render('reservations/cr...', Array)
+#2 C:\xampp\htdocs\hotel0514\hotel_oop\app\Controllers\ReservationsController.php(31): App\Controllers\Controller->render('reservations/cr...')
+#3 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(109): App\Controllers\ReservationsController->create()
+#4 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(33): App\Routing\Router->handlePostRequests('/reservations/c...')
+#5 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(24): App\Routing\Router->dispatch('POST', '/reservations/c...')
+#6 C:\xampp\htdocs\hotel0514\hotel_oop\public\index.php(11): App\Routing\Router->handle()
+#7 {main}
+  thrown in C:\xampp\htdocs\hotel0514\hotel_oop\app\views\reservations\create.php on line 12
+[24-May-2025 18:55:02 Europe/Berlin] PHP Warning:  Undefined variable $rooms in C:\xampp\htdocs\hotel0514\hotel_oop\app\views\reservations\create.php on line 12
+[24-May-2025 18:55:02 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function all() on null in C:\xampp\htdocs\hotel0514\hotel_oop\app\views\reservations\create.php:12
+Stack trace:
+#0 C:\xampp\htdocs\hotel0514\hotel_oop\app\views\View.php(18): include()
+#1 C:\xampp\htdocs\hotel0514\hotel_oop\app\Controllers\Controller.php(27): App\views\View::render('reservations/cr...', Array)
+#2 C:\xampp\htdocs\hotel0514\hotel_oop\app\Controllers\ReservationsController.php(31): App\Controllers\Controller->render('reservations/cr...')
+#3 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(109): App\Controllers\ReservationsController->create()
+#4 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(33): App\Routing\Router->handlePostRequests('/reservations/c...')
+#5 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(24): App\Routing\Router->dispatch('POST', '/reservations/c...')
+#6 C:\xampp\htdocs\hotel0514\hotel_oop\public\index.php(11): App\Routing\Router->handle()
+#7 {main}
+  thrown in C:\xampp\htdocs\hotel0514\hotel_oop\app\views\reservations\create.php on line 12
+[24-May-2025 18:57:17 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: Cannot assign string to property App\Models\ReservationsModel::$start_date of type ?int in C:\xampp\htdocs\hotel0514\hotel_oop\app\Controllers\ReservationsController.php:54
+Stack trace:
+#0 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(114): App\Controllers\ReservationsController->save(Array)
+#1 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(33): App\Routing\Router->handlePostRequests('/reservations')
+#2 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(24): App\Routing\Router->dispatch('POST', '/reservations')
+#3 C:\xampp\htdocs\hotel0514\hotel_oop\public\index.php(11): App\Routing\Router->handle()
+#4 {main}
+  thrown in C:\xampp\htdocs\hotel0514\hotel_oop\app\Controllers\ReservationsController.php on line 54
+[24-May-2025 18:58:08 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: Cannot assign string to property App\Models\ReservationsModel::$start_date of type ?DateTime in C:\xampp\htdocs\hotel0514\hotel_oop\app\Controllers\ReservationsController.php:54
+Stack trace:
+#0 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(114): App\Controllers\ReservationsController->save(Array)
+#1 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(33): App\Routing\Router->handlePostRequests('/reservations')
+#2 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(24): App\Routing\Router->dispatch('POST', '/reservations')
+#3 C:\xampp\htdocs\hotel0514\hotel_oop\public\index.php(11): App\Routing\Router->handle()
+#4 {main}
+  thrown in C:\xampp\htdocs\hotel0514\hotel_oop\app\Controllers\ReservationsController.php on line 54
+[24-May-2025 18:58:09 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: Cannot assign string to property App\Models\ReservationsModel::$start_date of type ?DateTime in C:\xampp\htdocs\hotel0514\hotel_oop\app\Controllers\ReservationsController.php:54
+Stack trace:
+#0 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(114): App\Controllers\ReservationsController->save(Array)
+#1 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(33): App\Routing\Router->handlePostRequests('/reservations')
+#2 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(24): App\Routing\Router->dispatch('POST', '/reservations')
+#3 C:\xampp\htdocs\hotel0514\hotel_oop\public\index.php(11): App\Routing\Router->handle()
+#4 {main}
+  thrown in C:\xampp\htdocs\hotel0514\hotel_oop\app\Controllers\ReservationsController.php on line 54
+[24-May-2025 19:00:28 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: Cannot assign string to property App\Models\ReservationsModel::$start_date of type ?DateTime in C:\xampp\htdocs\hotel0514\hotel_oop\app\Controllers\ReservationsController.php:54
+Stack trace:
+#0 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(114): App\Controllers\ReservationsController->save(Array)
+#1 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(33): App\Routing\Router->handlePostRequests('/reservations')
+#2 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(24): App\Routing\Router->dispatch('POST', '/reservations')
+#3 C:\xampp\htdocs\hotel0514\hotel_oop\public\index.php(11): App\Routing\Router->handle()
+#4 {main}
+  thrown in C:\xampp\htdocs\hotel0514\hotel_oop\app\Controllers\ReservationsController.php on line 54
+[24-May-2025 19:02:42 Europe/Berlin] PHP Fatal error:  Uncaught Error: Object of class DateTime could not be converted to string in C:\xampp\htdocs\hotel0514\hotel_oop\app\Database\Database.php:75
+Stack trace:
+#0 C:\xampp\htdocs\hotel0514\hotel_oop\app\Database\Database.php(75): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\hotel0514\hotel_oop\app\Models\Model.php(109): App\Database\Database->execSql('INSERT INTO `re...', Array)
+#2 C:\xampp\htdocs\hotel0514\hotel_oop\app\Controllers\ReservationsController.php(79): App\Models\Model->create()
+#3 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(114): App\Controllers\ReservationsController->save(Array)
+#4 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(33): App\Routing\Router->handlePostRequests('/reservations')
+#5 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(24): App\Routing\Router->dispatch('POST', '/reservations')
+#6 C:\xampp\htdocs\hotel0514\hotel_oop\public\index.php(11): App\Routing\Router->handle()
+#7 {main}
+  thrown in C:\xampp\htdocs\hotel0514\hotel_oop\app\Database\Database.php on line 75
+[24-May-2025 19:03:34 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: Cannot assign string to property App\Models\ReservationsModel::$start_date of type ?DateTime in C:\xampp\htdocs\hotel0514\hotel_oop\app\Controllers\ReservationsController.php:54
+Stack trace:
+#0 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(114): App\Controllers\ReservationsController->save(Array)
+#1 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(33): App\Routing\Router->handlePostRequests('/reservations')
+#2 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(24): App\Routing\Router->dispatch('POST', '/reservations')
+#3 C:\xampp\htdocs\hotel0514\hotel_oop\public\index.php(11): App\Routing\Router->handle()
+#4 {main}
+  thrown in C:\xampp\htdocs\hotel0514\hotel_oop\app\Controllers\ReservationsController.php on line 54
+[24-May-2025 19:04:47 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: Cannot assign string to property App\Models\ReservationsModel::$start_date of type ?DateTime in C:\xampp\htdocs\hotel0514\hotel_oop\app\Controllers\ReservationsController.php:54
+Stack trace:
+#0 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(114): App\Controllers\ReservationsController->save(Array)
+#1 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(33): App\Routing\Router->handlePostRequests('/reservations')
+#2 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(24): App\Routing\Router->dispatch('POST', '/reservations')
+#3 C:\xampp\htdocs\hotel0514\hotel_oop\public\index.php(11): App\Routing\Router->handle()
+#4 {main}
+  thrown in C:\xampp\htdocs\hotel0514\hotel_oop\app\Controllers\ReservationsController.php on line 54
+[24-May-2025 19:04:48 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: Cannot assign string to property App\Models\ReservationsModel::$start_date of type ?DateTime in C:\xampp\htdocs\hotel0514\hotel_oop\app\Controllers\ReservationsController.php:54
+Stack trace:
+#0 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(114): App\Controllers\ReservationsController->save(Array)
+#1 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(33): App\Routing\Router->handlePostRequests('/reservations')
+#2 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(24): App\Routing\Router->dispatch('POST', '/reservations')
+#3 C:\xampp\htdocs\hotel0514\hotel_oop\public\index.php(11): App\Routing\Router->handle()
+#4 {main}
+  thrown in C:\xampp\htdocs\hotel0514\hotel_oop\app\Controllers\ReservationsController.php on line 54
+[24-May-2025 19:05:11 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: Cannot assign string to property App\Models\ReservationsModel::$start_date of type ?DateTime in C:\xampp\htdocs\hotel0514\hotel_oop\app\Controllers\ReservationsController.php:54
+Stack trace:
+#0 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(114): App\Controllers\ReservationsController->save(Array)
+#1 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(33): App\Routing\Router->handlePostRequests('/reservations')
+#2 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(24): App\Routing\Router->dispatch('POST', '/reservations')
+#3 C:\xampp\htdocs\hotel0514\hotel_oop\public\index.php(11): App\Routing\Router->handle()
+#4 {main}
+  thrown in C:\xampp\htdocs\hotel0514\hotel_oop\app\Controllers\ReservationsController.php on line 54
+[24-May-2025 19:07:52 Europe/Berlin] PHP Warning:  Undefined variable $room in C:\xampp\htdocs\hotel0514\hotel_oop\app\views\reservations\index.php on line 14
+[24-May-2025 19:07:52 Europe/Berlin] PHP Warning:  Attempt to read property "id" on null in C:\xampp\htdocs\hotel0514\hotel_oop\app\views\reservations\index.php on line 14
+[24-May-2025 19:07:52 Europe/Berlin] PHP Warning:  Undefined variable $room in C:\xampp\htdocs\hotel0514\hotel_oop\app\views\reservations\index.php on line 18
+[24-May-2025 19:07:52 Europe/Berlin] PHP Warning:  Attempt to read property "id" on null in C:\xampp\htdocs\hotel0514\hotel_oop\app\views\reservations\index.php on line 18
+[24-May-2025 19:08:59 Europe/Berlin] PHP Warning:  Undefined variable $room in C:\xampp\htdocs\hotel0514\hotel_oop\app\views\reservations\index.php on line 14
+[24-May-2025 19:08:59 Europe/Berlin] PHP Warning:  Attempt to read property "id" on null in C:\xampp\htdocs\hotel0514\hotel_oop\app\views\reservations\index.php on line 14
+[24-May-2025 19:08:59 Europe/Berlin] PHP Warning:  Undefined variable $room in C:\xampp\htdocs\hotel0514\hotel_oop\app\views\reservations\index.php on line 18
+[24-May-2025 19:08:59 Europe/Berlin] PHP Warning:  Attempt to read property "id" on null in C:\xampp\htdocs\hotel0514\hotel_oop\app\views\reservations\index.php on line 18
+[24-May-2025 19:09:00 Europe/Berlin] PHP Warning:  Undefined variable $room in C:\xampp\htdocs\hotel0514\hotel_oop\app\views\reservations\index.php on line 14
+[24-May-2025 19:09:00 Europe/Berlin] PHP Warning:  Attempt to read property "id" on null in C:\xampp\htdocs\hotel0514\hotel_oop\app\views\reservations\index.php on line 14
+[24-May-2025 19:09:00 Europe/Berlin] PHP Warning:  Undefined variable $room in C:\xampp\htdocs\hotel0514\hotel_oop\app\views\reservations\index.php on line 18
+[24-May-2025 19:09:00 Europe/Berlin] PHP Warning:  Attempt to read property "id" on null in C:\xampp\htdocs\hotel0514\hotel_oop\app\views\reservations\index.php on line 18
+[24-May-2025 19:09:38 Europe/Berlin] PHP Warning:  Undefined variable $room in C:\xampp\htdocs\hotel0514\hotel_oop\app\views\reservations\index.php on line 14
+[24-May-2025 19:09:38 Europe/Berlin] PHP Warning:  Attempt to read property "id" on null in C:\xampp\htdocs\hotel0514\hotel_oop\app\views\reservations\index.php on line 14
+[24-May-2025 19:09:38 Europe/Berlin] PHP Warning:  Undefined variable $room in C:\xampp\htdocs\hotel0514\hotel_oop\app\views\reservations\index.php on line 18
+[24-May-2025 19:09:38 Europe/Berlin] PHP Warning:  Attempt to read property "id" on null in C:\xampp\htdocs\hotel0514\hotel_oop\app\views\reservations\index.php on line 18
+[24-May-2025 19:09:40 Europe/Berlin] PHP Warning:  Undefined variable $room in C:\xampp\htdocs\hotel0514\hotel_oop\app\views\reservations\index.php on line 14
+[24-May-2025 19:09:40 Europe/Berlin] PHP Warning:  Attempt to read property "id" on null in C:\xampp\htdocs\hotel0514\hotel_oop\app\views\reservations\index.php on line 14
+[24-May-2025 19:09:40 Europe/Berlin] PHP Warning:  Undefined variable $room in C:\xampp\htdocs\hotel0514\hotel_oop\app\views\reservations\index.php on line 18
+[24-May-2025 19:09:40 Europe/Berlin] PHP Warning:  Attempt to read property "id" on null in C:\xampp\htdocs\hotel0514\hotel_oop\app\views\reservations\index.php on line 18
+[24-May-2025 19:10:31 Europe/Berlin] PHP Fatal error:  Uncaught Error: Object of class App\Models\GuestsModel could not be converted to string in C:\xampp\htdocs\hotel0514\hotel_oop\app\views\reservations\create.php:22
+Stack trace:
+#0 C:\xampp\htdocs\hotel0514\hotel_oop\app\views\View.php(18): include()
+#1 C:\xampp\htdocs\hotel0514\hotel_oop\app\Controllers\Controller.php(27): App\views\View::render('reservations/cr...', Array)
+#2 C:\xampp\htdocs\hotel0514\hotel_oop\app\Controllers\ReservationsController.php(31): App\Controllers\Controller->render('reservations/cr...', Array)
+#3 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(109): App\Controllers\ReservationsController->create()
+#4 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(33): App\Routing\Router->handlePostRequests('/reservations/c...')
+#5 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(24): App\Routing\Router->dispatch('POST', '/reservations/c...')
+#6 C:\xampp\htdocs\hotel0514\hotel_oop\public\index.php(11): App\Routing\Router->handle()
+#7 {main}
+  thrown in C:\xampp\htdocs\hotel0514\hotel_oop\app\views\reservations\create.php on line 22
+[24-May-2025 19:16:10 Europe/Berlin] PHP Warning:  Undefined property: App\Models\ReservationsModel::$room_number in C:\xampp\htdocs\hotel0514\hotel_oop\app\views\reservations\edit.php on line 17
+[24-May-2025 19:16:10 Europe/Berlin] PHP Warning:  Undefined property: App\Models\ReservationsModel::$room_number in C:\xampp\htdocs\hotel0514\hotel_oop\app\views\reservations\edit.php on line 17
+[24-May-2025 19:16:10 Europe/Berlin] PHP Warning:  Undefined property: App\Models\ReservationsModel::$room_number in C:\xampp\htdocs\hotel0514\hotel_oop\app\views\reservations\edit.php on line 27
+[24-May-2025 19:16:10 Europe/Berlin] PHP Warning:  Undefined variable $guest in C:\xampp\htdocs\hotel0514\hotel_oop\app\views\reservations\edit.php on line 28
+[24-May-2025 19:16:10 Europe/Berlin] PHP Warning:  Attempt to read property "name" on null in C:\xampp\htdocs\hotel0514\hotel_oop\app\views\reservations\edit.php on line 28
+[24-May-2025 19:16:21 Europe/Berlin] PHP Warning:  Undefined property: App\Models\ReservationsModel::$room_number in C:\xampp\htdocs\hotel0514\hotel_oop\app\views\reservations\edit.php on line 17
+[24-May-2025 19:16:21 Europe/Berlin] PHP Warning:  Undefined property: App\Models\ReservationsModel::$room_number in C:\xampp\htdocs\hotel0514\hotel_oop\app\views\reservations\edit.php on line 17
+[24-May-2025 19:16:21 Europe/Berlin] PHP Warning:  Undefined property: App\Models\ReservationsModel::$room_number in C:\xampp\htdocs\hotel0514\hotel_oop\app\views\reservations\edit.php on line 27
+[24-May-2025 19:16:21 Europe/Berlin] PHP Warning:  Undefined variable $guest in C:\xampp\htdocs\hotel0514\hotel_oop\app\views\reservations\edit.php on line 28
+[24-May-2025 19:16:21 Europe/Berlin] PHP Warning:  Attempt to read property "name" on null in C:\xampp\htdocs\hotel0514\hotel_oop\app\views\reservations\edit.php on line 28
+[24-May-2025 19:16:41 Europe/Berlin] PHP Warning:  Undefined property: App\Models\ReservationsModel::$room_number in C:\xampp\htdocs\hotel0514\hotel_oop\app\views\reservations\edit.php on line 17
+[24-May-2025 19:16:41 Europe/Berlin] PHP Warning:  Undefined property: App\Models\ReservationsModel::$room_number in C:\xampp\htdocs\hotel0514\hotel_oop\app\views\reservations\edit.php on line 27
+[24-May-2025 19:16:41 Europe/Berlin] PHP Warning:  Undefined variable $guest in C:\xampp\htdocs\hotel0514\hotel_oop\app\views\reservations\edit.php on line 28
+[24-May-2025 19:16:41 Europe/Berlin] PHP Warning:  Attempt to read property "name" on null in C:\xampp\htdocs\hotel0514\hotel_oop\app\views\reservations\edit.php on line 28
+[24-May-2025 19:16:57 Europe/Berlin] PHP Warning:  Undefined property: App\Models\ReservationsModel::$room_number in C:\xampp\htdocs\hotel0514\hotel_oop\app\views\reservations\edit.php on line 26
+[24-May-2025 19:16:57 Europe/Berlin] PHP Warning:  Undefined variable $guest in C:\xampp\htdocs\hotel0514\hotel_oop\app\views\reservations\edit.php on line 27
+[24-May-2025 19:16:57 Europe/Berlin] PHP Warning:  Attempt to read property "name" on null in C:\xampp\htdocs\hotel0514\hotel_oop\app\views\reservations\edit.php on line 27
+[24-May-2025 19:17:42 Europe/Berlin] PHP Warning:  Undefined property: App\Models\ReservationsModel::$room_number in C:\xampp\htdocs\hotel0514\hotel_oop\app\views\reservations\edit.php on line 17
+[24-May-2025 19:17:42 Europe/Berlin] PHP Warning:  Undefined property: App\Models\ReservationsModel::$room_number in C:\xampp\htdocs\hotel0514\hotel_oop\app\views\reservations\edit.php on line 17
+[24-May-2025 19:17:42 Europe/Berlin] PHP Warning:  Undefined property: App\Models\ReservationsModel::$room_number in C:\xampp\htdocs\hotel0514\hotel_oop\app\views\reservations\edit.php on line 27
+[24-May-2025 19:17:42 Europe/Berlin] PHP Warning:  Undefined variable $guest in C:\xampp\htdocs\hotel0514\hotel_oop\app\views\reservations\edit.php on line 28
+[24-May-2025 19:17:42 Europe/Berlin] PHP Warning:  Attempt to read property "name" on null in C:\xampp\htdocs\hotel0514\hotel_oop\app\views\reservations\edit.php on line 28
+[24-May-2025 19:18:44 Europe/Berlin] PHP Warning:  Undefined property: App\Models\ReservationsModel::$room_number in C:\xampp\htdocs\hotel0514\hotel_oop\app\views\reservations\edit.php on line 17
+[24-May-2025 19:18:44 Europe/Berlin] PHP Warning:  Undefined property: App\Models\ReservationsModel::$room_number in C:\xampp\htdocs\hotel0514\hotel_oop\app\views\reservations\edit.php on line 17
+[24-May-2025 19:18:44 Europe/Berlin] PHP Warning:  Undefined property: App\Models\ReservationsModel::$room_number in C:\xampp\htdocs\hotel0514\hotel_oop\app\views\reservations\edit.php on line 27
+[24-May-2025 19:18:44 Europe/Berlin] PHP Warning:  Undefined variable $guest in C:\xampp\htdocs\hotel0514\hotel_oop\app\views\reservations\edit.php on line 28
+[24-May-2025 19:18:44 Europe/Berlin] PHP Warning:  Attempt to read property "name" on null in C:\xampp\htdocs\hotel0514\hotel_oop\app\views\reservations\edit.php on line 28
+[24-May-2025 19:23:41 Europe/Berlin] PHP Warning:  Undefined property: App\Models\ReservationsModel::$room_number in C:\xampp\htdocs\hotel0514\hotel_oop\app\views\reservations\edit.php on line 25
+[24-May-2025 19:23:41 Europe/Berlin] PHP Warning:  Undefined variable $guest in C:\xampp\htdocs\hotel0514\hotel_oop\app\views\reservations\edit.php on line 26
+[24-May-2025 19:23:41 Europe/Berlin] PHP Warning:  Attempt to read property "name" on null in C:\xampp\htdocs\hotel0514\hotel_oop\app\views\reservations\edit.php on line 26
+[24-May-2025 19:23:48 Europe/Berlin] PHP Warning:  Undefined property: App\Models\ReservationsModel::$room_number in C:\xampp\htdocs\hotel0514\hotel_oop\app\views\reservations\edit.php on line 25
+[24-May-2025 19:33:47 Europe/Berlin] View not found: C:\xampp\htdocs\hotel0514\hotel_oop\app\views\reservations.php
+[24-May-2025 19:33:47 Europe/Berlin] PHP Warning:  include(C:\xampp\htdocs\hotel0514\hotel_oop\app\views\reservations.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\hotel0514\hotel_oop\app\views\View.php on line 18
+[24-May-2025 19:33:47 Europe/Berlin] PHP Warning:  include(): Failed opening 'C:\xampp\htdocs\hotel0514\hotel_oop\app\views\reservations.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\hotel0514\hotel_oop\app\views\View.php on line 18
+[24-May-2025 19:37:00 Europe/Berlin] PHP Fatal error:  Uncaught Error: Object of class App\Models\RoomsModel could not be converted to string in C:\xampp\htdocs\hotel0514\hotel_oop\app\views\reservations\index.php:8
+Stack trace:
+#0 C:\xampp\htdocs\hotel0514\hotel_oop\app\views\View.php(18): include()
+#1 C:\xampp\htdocs\hotel0514\hotel_oop\app\Controllers\Controller.php(27): App\views\View::render('reservations/in...', Array)
+#2 C:\xampp\htdocs\hotel0514\hotel_oop\app\Controllers\ReservationsController.php(26): App\Controllers\Controller->render('reservations/in...', Array)
+#3 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(229): App\Controllers\ReservationsController->index()
+#4 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(30): App\Routing\Router->handleGetRequests('/reservations')
+#5 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(24): App\Routing\Router->dispatch('GET', '/reservations')
+#6 C:\xampp\htdocs\hotel0514\hotel_oop\public\index.php(11): App\Routing\Router->handle()
+#7 {main}
+  thrown in C:\xampp\htdocs\hotel0514\hotel_oop\app\views\reservations\index.php on line 8
+[24-May-2025 19:40:27 Europe/Berlin] PHP Fatal error:  Uncaught Error: Cannot use object of type App\Models\RoomsModel as array in C:\xampp\htdocs\hotel0514\hotel_oop\app\views\reservations\index.php:8
+Stack trace:
+#0 C:\xampp\htdocs\hotel0514\hotel_oop\app\views\View.php(18): include()
+#1 C:\xampp\htdocs\hotel0514\hotel_oop\app\Controllers\Controller.php(27): App\views\View::render('reservations/in...', Array)
+#2 C:\xampp\htdocs\hotel0514\hotel_oop\app\Controllers\ReservationsController.php(26): App\Controllers\Controller->render('reservations/in...', Array)
+#3 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(229): App\Controllers\ReservationsController->index()
+#4 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(30): App\Routing\Router->handleGetRequests('/reservations')
+#5 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(24): App\Routing\Router->dispatch('GET', '/reservations')
+#6 C:\xampp\htdocs\hotel0514\hotel_oop\public\index.php(11): App\Routing\Router->handle()
+#7 {main}
+  thrown in C:\xampp\htdocs\hotel0514\hotel_oop\app\views\reservations\index.php on line 8
+[24-May-2025 19:40:45 Europe/Berlin] PHP Fatal error:  Uncaught Error: Object of class App\Models\GuestsModel could not be converted to string in C:\xampp\htdocs\hotel0514\hotel_oop\app\views\reservations\index.php:9
+Stack trace:
+#0 C:\xampp\htdocs\hotel0514\hotel_oop\app\views\View.php(18): include()
+#1 C:\xampp\htdocs\hotel0514\hotel_oop\app\Controllers\Controller.php(27): App\views\View::render('reservations/in...', Array)
+#2 C:\xampp\htdocs\hotel0514\hotel_oop\app\Controllers\ReservationsController.php(26): App\Controllers\Controller->render('reservations/in...', Array)
+#3 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(229): App\Controllers\ReservationsController->index()
+#4 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(30): App\Routing\Router->handleGetRequests('/reservations')
+#5 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(24): App\Routing\Router->dispatch('GET', '/reservations')
+#6 C:\xampp\htdocs\hotel0514\hotel_oop\public\index.php(11): App\Routing\Router->handle()
+#7 {main}
+  thrown in C:\xampp\htdocs\hotel0514\hotel_oop\app\views\reservations\index.php on line 9
+[24-May-2025 19:47:54 Europe/Berlin] PHP Fatal error:  Uncaught Error: __clone method called on non-object in C:\xampp\htdocs\hotel0514\hotel_oop\app\Controllers\ReservationsController.php:101
+Stack trace:
+#0 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(114): App\Controllers\ReservationsController->save(Array)
+#1 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(33): App\Routing\Router->handlePostRequests('/reservations')
+#2 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(24): App\Routing\Router->dispatch('POST', '/reservations')
+#3 C:\xampp\htdocs\hotel0514\hotel_oop\public\index.php(11): App\Routing\Router->handle()
+#4 {main}
+  thrown in C:\xampp\htdocs\hotel0514\hotel_oop\app\Controllers\ReservationsController.php on line 101
+[24-May-2025 19:50:10 Europe/Berlin] PHP Fatal error:  Uncaught Error: __clone method called on non-object in C:\xampp\htdocs\hotel0514\hotel_oop\app\Controllers\ReservationsController.php:105
+Stack trace:
+#0 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(114): App\Controllers\ReservationsController->save(Array)
+#1 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(33): App\Routing\Router->handlePostRequests('/reservations')
+#2 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(24): App\Routing\Router->dispatch('POST', '/reservations')
+#3 C:\xampp\htdocs\hotel0514\hotel_oop\public\index.php(11): App\Routing\Router->handle()
+#4 {main}
+  thrown in C:\xampp\htdocs\hotel0514\hotel_oop\app\Controllers\ReservationsController.php on line 105
+[24-May-2025 20:06:06 Europe/Berlin] PHP Warning:  Undefined variable $reservations in C:\xampp\htdocs\hotel0514\hotel_oop\app\Controllers\ReservationsController.php on line 53
+[24-May-2025 20:06:06 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getRoomStatus() on null in C:\xampp\htdocs\hotel0514\hotel_oop\app\Controllers\ReservationsController.php:53
+Stack trace:
+#0 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(114): App\Controllers\ReservationsController->save(Array)
+#1 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(33): App\Routing\Router->handlePostRequests('/reservations')
+#2 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(24): App\Routing\Router->dispatch('POST', '/reservations')
+#3 C:\xampp\htdocs\hotel0514\hotel_oop\public\index.php(11): App\Routing\Router->handle()
+#4 {main}
+  thrown in C:\xampp\htdocs\hotel0514\hotel_oop\app\Controllers\ReservationsController.php on line 53
+[24-May-2025 20:10:03 Europe/Berlin] SQLSTATE[HY093]: Invalid parameter number
+[24-May-2025 20:10:30 Europe/Berlin] SQLSTATE[HY093]: Invalid parameter number
+[24-May-2025 20:12:18 Europe/Berlin] SQLSTATE[HY093]: Invalid parameter number
+[24-May-2025 20:14:36 Europe/Berlin] SQLSTATE[HY093]: Invalid parameter number
+[24-May-2025 20:15:42 Europe/Berlin] SQLSTATE[HY093]: Invalid parameter number
+[24-May-2025 20:15:42 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\hotel0514\hotel_oop\app\Models\ReservationsModel.php on line 37
+[24-May-2025 20:15:42 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\hotel0514\hotel_oop\app\Models\ReservationsModel.php on line 37
+[24-May-2025 20:17:37 Europe/Berlin] SQLSTATE[HY093]: Invalid parameter number
+[24-May-2025 20:18:29 Europe/Berlin] SQLSTATE[HY093]: Invalid parameter number
+[24-May-2025 20:18:29 Europe/Berlin] available
+[24-May-2025 20:21:49 Europe/Berlin] SQLSTATE[HY093]: Invalid parameter number
+[24-May-2025 20:21:49 Europe/Berlin] available
+[24-May-2025 20:23:23 Europe/Berlin] occupied
+[24-May-2025 20:26:11 Europe/Berlin] occupied
+[24-May-2025 20:31:20 Europe/Berlin] occupied
+[24-May-2025 20:32:01 Europe/Berlin] occupied
+[24-May-2025 20:32:39 Europe/Berlin] occupied
+[24-May-2025 20:33:01 Europe/Berlin] occupied
+[24-May-2025 20:36:56 Europe/Berlin] occupied
+[24-May-2025 20:36:56 Europe/Berlin] PHP Warning:  Undefined array key "error" in C:\xampp\htdocs\hotel0514\hotel_oop\app\views\reservations\index.php on line 3
+[24-May-2025 20:38:39 Europe/Berlin] occupied
+[24-May-2025 20:39:05 Europe/Berlin] available
+[24-May-2025 20:39:14 Europe/Berlin] occupied
+[24-May-2025 20:39:30 Europe/Berlin] occupied
+[24-May-2025 20:42:11 Europe/Berlin] occupied
+[24-May-2025 20:42:31 Europe/Berlin] occupied
+[24-May-2025 20:42:38 Europe/Berlin] occupied
+[24-May-2025 20:43:03 Europe/Berlin] occupied
+[24-May-2025 20:47:51 Europe/Berlin] occupied
+[24-May-2025 20:48:21 Europe/Berlin] occupied
+[24-May-2025 20:57:00 Europe/Berlin] PHP Warning:  Undefined array key "room_id" in C:\xampp\htdocs\hotel0514\hotel_oop\app\Controllers\ReservationsController.php on line 74
+[24-May-2025 20:57:00 Europe/Berlin] PHP Warning:  Undefined array key "guest_id" in C:\xampp\htdocs\hotel0514\hotel_oop\app\Controllers\ReservationsController.php on line 75
+[24-May-2025 20:57:00 Europe/Berlin] PHP Warning:  Undefined array key "days" in C:\xampp\htdocs\hotel0514\hotel_oop\app\Controllers\ReservationsController.php on line 76
+[24-May-2025 20:57:00 Europe/Berlin] PHP Warning:  Undefined array key "start_date" in C:\xampp\htdocs\hotel0514\hotel_oop\app\Controllers\ReservationsController.php on line 77
+[24-May-2025 20:57:00 Europe/Berlin] available
+[24-May-2025 20:57:00 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: App\Models\Model::find(): Argument #1 ($id) must be of type int, null given, called in C:\xampp\htdocs\hotel0514\hotel_oop\app\views\reservations\index.php on line 11 and defined in C:\xampp\htdocs\hotel0514\hotel_oop\app\Models\Model.php:57
+Stack trace:
+#0 C:\xampp\htdocs\hotel0514\hotel_oop\app\views\reservations\index.php(11): App\Models\Model->find(NULL)
+#1 C:\xampp\htdocs\hotel0514\hotel_oop\app\views\View.php(18): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\hotel0514\hotel_oop\app\Controllers\Controller.php(27): App\views\View::render('reservations/in...', Array)
+#3 C:\xampp\htdocs\hotel0514\hotel_oop\app\Controllers\ReservationsController.php(27): App\Controllers\Controller->render('reservations/in...', Array)
+#4 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(234): App\Controllers\ReservationsController->index()
+#5 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(30): App\Routing\Router->handleGetRequests('/reservations')
+#6 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(24): App\Routing\Router->dispatch('GET', '/reservations')
+#7 C:\xampp\htdocs\hotel0514\hotel_oop\public\index.php(11): App\Routing\Router->handle()
+#8 {main}
+  thrown in C:\xampp\htdocs\hotel0514\hotel_oop\app\Models\Model.php on line 57
+[24-May-2025 20:57:29 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: App\Models\Model::find(): Argument #1 ($id) must be of type int, null given, called in C:\xampp\htdocs\hotel0514\hotel_oop\app\views\reservations\index.php on line 11 and defined in C:\xampp\htdocs\hotel0514\hotel_oop\app\Models\Model.php:57
+Stack trace:
+#0 C:\xampp\htdocs\hotel0514\hotel_oop\app\views\reservations\index.php(11): App\Models\Model->find(NULL)
+#1 C:\xampp\htdocs\hotel0514\hotel_oop\app\views\View.php(18): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\hotel0514\hotel_oop\app\Controllers\Controller.php(27): App\views\View::render('reservations/in...', Array)
+#3 C:\xampp\htdocs\hotel0514\hotel_oop\app\Controllers\ReservationsController.php(27): App\Controllers\Controller->render('reservations/in...', Array)
+#4 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(234): App\Controllers\ReservationsController->index()
+#5 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(30): App\Routing\Router->handleGetRequests('/reservations')
+#6 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(24): App\Routing\Router->dispatch('GET', '/reservations')
+#7 C:\xampp\htdocs\hotel0514\hotel_oop\public\index.php(11): App\Routing\Router->handle()
+#8 {main}
+  thrown in C:\xampp\htdocs\hotel0514\hotel_oop\app\Models\Model.php on line 57
+[24-May-2025 20:57:53 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: App\Models\Model::find(): Argument #1 ($id) must be of type int, null given, called in C:\xampp\htdocs\hotel0514\hotel_oop\app\views\reservations\index.php on line 11 and defined in C:\xampp\htdocs\hotel0514\hotel_oop\app\Models\Model.php:57
+Stack trace:
+#0 C:\xampp\htdocs\hotel0514\hotel_oop\app\views\reservations\index.php(11): App\Models\Model->find(NULL)
+#1 C:\xampp\htdocs\hotel0514\hotel_oop\app\views\View.php(18): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\hotel0514\hotel_oop\app\Controllers\Controller.php(27): App\views\View::render('reservations/in...', Array)
+#3 C:\xampp\htdocs\hotel0514\hotel_oop\app\Controllers\ReservationsController.php(27): App\Controllers\Controller->render('reservations/in...', Array)
+#4 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(234): App\Controllers\ReservationsController->index()
+#5 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(30): App\Routing\Router->handleGetRequests('/reservations')
+#6 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(24): App\Routing\Router->dispatch('GET', '/reservations')
+#7 C:\xampp\htdocs\hotel0514\hotel_oop\public\index.php(11): App\Routing\Router->handle()
+#8 {main}
+  thrown in C:\xampp\htdocs\hotel0514\hotel_oop\app\Models\Model.php on line 57
+[24-May-2025 20:58:20 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: App\Models\Model::find(): Argument #1 ($id) must be of type int, null given, called in C:\xampp\htdocs\hotel0514\hotel_oop\app\views\reservations\index.php on line 11 and defined in C:\xampp\htdocs\hotel0514\hotel_oop\app\Models\Model.php:57
+Stack trace:
+#0 C:\xampp\htdocs\hotel0514\hotel_oop\app\views\reservations\index.php(11): App\Models\Model->find(NULL)
+#1 C:\xampp\htdocs\hotel0514\hotel_oop\app\views\View.php(18): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\hotel0514\hotel_oop\app\Controllers\Controller.php(27): App\views\View::render('reservations/in...', Array)
+#3 C:\xampp\htdocs\hotel0514\hotel_oop\app\Controllers\ReservationsController.php(27): App\Controllers\Controller->render('reservations/in...', Array)
+#4 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(234): App\Controllers\ReservationsController->index()
+#5 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(30): App\Routing\Router->handleGetRequests('/reservations')
+#6 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(24): App\Routing\Router->dispatch('GET', '/reservations')
+#7 C:\xampp\htdocs\hotel0514\hotel_oop\public\index.php(11): App\Routing\Router->handle()
+#8 {main}
+  thrown in C:\xampp\htdocs\hotel0514\hotel_oop\app\Models\Model.php on line 57
+[24-May-2025 21:01:18 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: App\Models\Model::find(): Argument #1 ($id) must be of type int, null given, called in C:\xampp\htdocs\hotel0514\hotel_oop\app\views\reservations\index.php on line 11 and defined in C:\xampp\htdocs\hotel0514\hotel_oop\app\Models\Model.php:57
+Stack trace:
+#0 C:\xampp\htdocs\hotel0514\hotel_oop\app\views\reservations\index.php(11): App\Models\Model->find(NULL)
+#1 C:\xampp\htdocs\hotel0514\hotel_oop\app\views\View.php(18): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\hotel0514\hotel_oop\app\Controllers\Controller.php(27): App\views\View::render('reservations/in...', Array)
+#3 C:\xampp\htdocs\hotel0514\hotel_oop\app\Controllers\ReservationsController.php(27): App\Controllers\Controller->render('reservations/in...', Array)
+#4 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(234): App\Controllers\ReservationsController->index()
+#5 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(30): App\Routing\Router->handleGetRequests('/reservations')
+#6 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(24): App\Routing\Router->dispatch('GET', '/reservations')
+#7 C:\xampp\htdocs\hotel0514\hotel_oop\public\index.php(11): App\Routing\Router->handle()
+#8 {main}
+  thrown in C:\xampp\htdocs\hotel0514\hotel_oop\app\Models\Model.php on line 57
+[24-May-2025 21:01:22 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: App\Models\Model::find(): Argument #1 ($id) must be of type int, null given, called in C:\xampp\htdocs\hotel0514\hotel_oop\app\views\reservations\index.php on line 11 and defined in C:\xampp\htdocs\hotel0514\hotel_oop\app\Models\Model.php:57
+Stack trace:
+#0 C:\xampp\htdocs\hotel0514\hotel_oop\app\views\reservations\index.php(11): App\Models\Model->find(NULL)
+#1 C:\xampp\htdocs\hotel0514\hotel_oop\app\views\View.php(18): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\hotel0514\hotel_oop\app\Controllers\Controller.php(27): App\views\View::render('reservations/in...', Array)
+#3 C:\xampp\htdocs\hotel0514\hotel_oop\app\Controllers\ReservationsController.php(27): App\Controllers\Controller->render('reservations/in...', Array)
+#4 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(234): App\Controllers\ReservationsController->index()
+#5 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(30): App\Routing\Router->handleGetRequests('/reservations')
+#6 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(24): App\Routing\Router->dispatch('GET', '/reservations')
+#7 C:\xampp\htdocs\hotel0514\hotel_oop\public\index.php(11): App\Routing\Router->handle()
+#8 {main}
+  thrown in C:\xampp\htdocs\hotel0514\hotel_oop\app\Models\Model.php on line 57
+[24-May-2025 21:01:25 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: App\Models\Model::find(): Argument #1 ($id) must be of type int, null given, called in C:\xampp\htdocs\hotel0514\hotel_oop\app\views\reservations\index.php on line 11 and defined in C:\xampp\htdocs\hotel0514\hotel_oop\app\Models\Model.php:57
+Stack trace:
+#0 C:\xampp\htdocs\hotel0514\hotel_oop\app\views\reservations\index.php(11): App\Models\Model->find(NULL)
+#1 C:\xampp\htdocs\hotel0514\hotel_oop\app\views\View.php(18): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\hotel0514\hotel_oop\app\Controllers\Controller.php(27): App\views\View::render('reservations/in...', Array)
+#3 C:\xampp\htdocs\hotel0514\hotel_oop\app\Controllers\ReservationsController.php(27): App\Controllers\Controller->render('reservations/in...', Array)
+#4 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(234): App\Controllers\ReservationsController->index()
+#5 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(30): App\Routing\Router->handleGetRequests('/reservations')
+#6 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(24): App\Routing\Router->dispatch('GET', '/reservations')
+#7 C:\xampp\htdocs\hotel0514\hotel_oop\public\index.php(11): App\Routing\Router->handle()
+#8 {main}
+  thrown in C:\xampp\htdocs\hotel0514\hotel_oop\app\Models\Model.php on line 57
+[24-May-2025 21:01:51 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: App\Models\Model::find(): Argument #1 ($id) must be of type int, null given, called in C:\xampp\htdocs\hotel0514\hotel_oop\app\views\reservations\index.php on line 11 and defined in C:\xampp\htdocs\hotel0514\hotel_oop\app\Models\Model.php:57
+Stack trace:
+#0 C:\xampp\htdocs\hotel0514\hotel_oop\app\views\reservations\index.php(11): App\Models\Model->find(NULL)
+#1 C:\xampp\htdocs\hotel0514\hotel_oop\app\views\View.php(18): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\hotel0514\hotel_oop\app\Controllers\Controller.php(27): App\views\View::render('reservations/in...', Array)
+#3 C:\xampp\htdocs\hotel0514\hotel_oop\app\Controllers\ReservationsController.php(27): App\Controllers\Controller->render('reservations/in...', Array)
+#4 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(234): App\Controllers\ReservationsController->index()
+#5 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(30): App\Routing\Router->handleGetRequests('/reservations')
+#6 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(24): App\Routing\Router->dispatch('GET', '/reservations')
+#7 C:\xampp\htdocs\hotel0514\hotel_oop\public\index.php(11): App\Routing\Router->handle()
+#8 {main}
+  thrown in C:\xampp\htdocs\hotel0514\hotel_oop\app\Models\Model.php on line 57
+[24-May-2025 21:01:59 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: App\Models\Model::find(): Argument #1 ($id) must be of type int, null given, called in C:\xampp\htdocs\hotel0514\hotel_oop\app\views\reservations\index.php on line 11 and defined in C:\xampp\htdocs\hotel0514\hotel_oop\app\Models\Model.php:57
+Stack trace:
+#0 C:\xampp\htdocs\hotel0514\hotel_oop\app\views\reservations\index.php(11): App\Models\Model->find(NULL)
+#1 C:\xampp\htdocs\hotel0514\hotel_oop\app\views\View.php(18): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\hotel0514\hotel_oop\app\Controllers\Controller.php(27): App\views\View::render('reservations/in...', Array)
+#3 C:\xampp\htdocs\hotel0514\hotel_oop\app\Controllers\ReservationsController.php(27): App\Controllers\Controller->render('reservations/in...', Array)
+#4 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(234): App\Controllers\ReservationsController->index()
+#5 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(30): App\Routing\Router->handleGetRequests('/reservations')
+#6 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(24): App\Routing\Router->dispatch('GET', '/reservations')
+#7 C:\xampp\htdocs\hotel0514\hotel_oop\public\index.php(11): App\Routing\Router->handle()
+#8 {main}
+  thrown in C:\xampp\htdocs\hotel0514\hotel_oop\app\Models\Model.php on line 57
+[24-May-2025 21:02:17 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: App\Models\Model::find(): Argument #1 ($id) must be of type int, null given, called in C:\xampp\htdocs\hotel0514\hotel_oop\app\views\reservations\index.php on line 11 and defined in C:\xampp\htdocs\hotel0514\hotel_oop\app\Models\Model.php:57
+Stack trace:
+#0 C:\xampp\htdocs\hotel0514\hotel_oop\app\views\reservations\index.php(11): App\Models\Model->find(NULL)
+#1 C:\xampp\htdocs\hotel0514\hotel_oop\app\views\View.php(18): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\hotel0514\hotel_oop\app\Controllers\Controller.php(27): App\views\View::render('reservations/in...', Array)
+#3 C:\xampp\htdocs\hotel0514\hotel_oop\app\Controllers\ReservationsController.php(27): App\Controllers\Controller->render('reservations/in...', Array)
+#4 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(234): App\Controllers\ReservationsController->index()
+#5 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(30): App\Routing\Router->handleGetRequests('/reservations')
+#6 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(24): App\Routing\Router->dispatch('GET', '/reservations')
+#7 C:\xampp\htdocs\hotel0514\hotel_oop\public\index.php(11): App\Routing\Router->handle()
+#8 {main}
+  thrown in C:\xampp\htdocs\hotel0514\hotel_oop\app\Models\Model.php on line 57
+[24-May-2025 21:02:19 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: App\Models\Model::find(): Argument #1 ($id) must be of type int, null given, called in C:\xampp\htdocs\hotel0514\hotel_oop\app\views\reservations\index.php on line 11 and defined in C:\xampp\htdocs\hotel0514\hotel_oop\app\Models\Model.php:57
+Stack trace:
+#0 C:\xampp\htdocs\hotel0514\hotel_oop\app\views\reservations\index.php(11): App\Models\Model->find(NULL)
+#1 C:\xampp\htdocs\hotel0514\hotel_oop\app\views\View.php(18): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\hotel0514\hotel_oop\app\Controllers\Controller.php(27): App\views\View::render('reservations/in...', Array)
+#3 C:\xampp\htdocs\hotel0514\hotel_oop\app\Controllers\ReservationsController.php(27): App\Controllers\Controller->render('reservations/in...', Array)
+#4 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(234): App\Controllers\ReservationsController->index()
+#5 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(30): App\Routing\Router->handleGetRequests('/reservations')
+#6 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(24): App\Routing\Router->dispatch('GET', '/reservations')
+#7 C:\xampp\htdocs\hotel0514\hotel_oop\public\index.php(11): App\Routing\Router->handle()
+#8 {main}
+  thrown in C:\xampp\htdocs\hotel0514\hotel_oop\app\Models\Model.php on line 57
+[24-May-2025 21:03:14 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: App\Models\Model::find(): Argument #1 ($id) must be of type int, null given, called in C:\xampp\htdocs\hotel0514\hotel_oop\app\views\reservations\index.php on line 14 and defined in C:\xampp\htdocs\hotel0514\hotel_oop\app\Models\Model.php:57
+Stack trace:
+#0 C:\xampp\htdocs\hotel0514\hotel_oop\app\views\reservations\index.php(14): App\Models\Model->find(NULL)
+#1 C:\xampp\htdocs\hotel0514\hotel_oop\app\views\View.php(18): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\hotel0514\hotel_oop\app\Controllers\Controller.php(27): App\views\View::render('reservations/in...', Array)
+#3 C:\xampp\htdocs\hotel0514\hotel_oop\app\Controllers\ReservationsController.php(27): App\Controllers\Controller->render('reservations/in...', Array)
+#4 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(234): App\Controllers\ReservationsController->index()
+#5 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(30): App\Routing\Router->handleGetRequests('/reservations')
+#6 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(24): App\Routing\Router->dispatch('GET', '/reservations')
+#7 C:\xampp\htdocs\hotel0514\hotel_oop\public\index.php(11): App\Routing\Router->handle()
+#8 {main}
+  thrown in C:\xampp\htdocs\hotel0514\hotel_oop\app\Models\Model.php on line 57
+[24-May-2025 21:03:31 Europe/Berlin] PHP Fatal error:  Uncaught Error: Cannot use object of type App\Models\RoomsModel as array in C:\xampp\htdocs\hotel0514\hotel_oop\app\views\reservations\index.php:7
+Stack trace:
+#0 C:\xampp\htdocs\hotel0514\hotel_oop\app\views\View.php(18): include()
+#1 C:\xampp\htdocs\hotel0514\hotel_oop\app\Controllers\Controller.php(27): App\views\View::render('reservations/in...', Array)
+#2 C:\xampp\htdocs\hotel0514\hotel_oop\app\Controllers\ReservationsController.php(27): App\Controllers\Controller->render('reservations/in...', Array)
+#3 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(234): App\Controllers\ReservationsController->index()
+#4 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(30): App\Routing\Router->handleGetRequests('/reservations')
+#5 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(24): App\Routing\Router->dispatch('GET', '/reservations')
+#6 C:\xampp\htdocs\hotel0514\hotel_oop\public\index.php(11): App\Routing\Router->handle()
+#7 {main}
+  thrown in C:\xampp\htdocs\hotel0514\hotel_oop\app\views\reservations\index.php on line 7
+[24-May-2025 21:03:37 Europe/Berlin] PHP Fatal error:  Uncaught Error: Cannot use object of type App\Models\RoomsModel as array in C:\xampp\htdocs\hotel0514\hotel_oop\app\views\reservations\index.php:7
+Stack trace:
+#0 C:\xampp\htdocs\hotel0514\hotel_oop\app\views\View.php(18): include()
+#1 C:\xampp\htdocs\hotel0514\hotel_oop\app\Controllers\Controller.php(27): App\views\View::render('reservations/in...', Array)
+#2 C:\xampp\htdocs\hotel0514\hotel_oop\app\Controllers\ReservationsController.php(27): App\Controllers\Controller->render('reservations/in...', Array)
+#3 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(234): App\Controllers\ReservationsController->index()
+#4 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(30): App\Routing\Router->handleGetRequests('/reservations')
+#5 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(24): App\Routing\Router->dispatch('GET', '/reservations')
+#6 C:\xampp\htdocs\hotel0514\hotel_oop\public\index.php(11): App\Routing\Router->handle()
+#7 {main}
+  thrown in C:\xampp\htdocs\hotel0514\hotel_oop\app\views\reservations\index.php on line 7
+[24-May-2025 21:03:44 Europe/Berlin] PHP Fatal error:  Uncaught Error: Typed property App\Models\Model::$id must not be accessed before initialization in C:\xampp\htdocs\hotel0514\hotel_oop\app\views\reservations\index.php:7
+Stack trace:
+#0 C:\xampp\htdocs\hotel0514\hotel_oop\app\views\View.php(18): include()
+#1 C:\xampp\htdocs\hotel0514\hotel_oop\app\Controllers\Controller.php(27): App\views\View::render('reservations/in...', Array)
+#2 C:\xampp\htdocs\hotel0514\hotel_oop\app\Controllers\ReservationsController.php(27): App\Controllers\Controller->render('reservations/in...', Array)
+#3 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(234): App\Controllers\ReservationsController->index()
+#4 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(30): App\Routing\Router->handleGetRequests('/reservations')
+#5 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(24): App\Routing\Router->dispatch('GET', '/reservations')
+#6 C:\xampp\htdocs\hotel0514\hotel_oop\public\index.php(11): App\Routing\Router->handle()
+#7 {main}
+  thrown in C:\xampp\htdocs\hotel0514\hotel_oop\app\views\reservations\index.php on line 7
+[24-May-2025 21:03:52 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: App\Models\Model::find(): Argument #1 ($id) must be of type int, null given, called in C:\xampp\htdocs\hotel0514\hotel_oop\app\views\reservations\index.php on line 14 and defined in C:\xampp\htdocs\hotel0514\hotel_oop\app\Models\Model.php:57
+Stack trace:
+#0 C:\xampp\htdocs\hotel0514\hotel_oop\app\views\reservations\index.php(14): App\Models\Model->find(NULL)
+#1 C:\xampp\htdocs\hotel0514\hotel_oop\app\views\View.php(18): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\hotel0514\hotel_oop\app\Controllers\Controller.php(27): App\views\View::render('reservations/in...', Array)
+#3 C:\xampp\htdocs\hotel0514\hotel_oop\app\Controllers\ReservationsController.php(27): App\Controllers\Controller->render('reservations/in...', Array)
+#4 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(234): App\Controllers\ReservationsController->index()
+#5 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(30): App\Routing\Router->handleGetRequests('/reservations')
+#6 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(24): App\Routing\Router->dispatch('GET', '/reservations')
+#7 C:\xampp\htdocs\hotel0514\hotel_oop\public\index.php(11): App\Routing\Router->handle()
+#8 {main}
+  thrown in C:\xampp\htdocs\hotel0514\hotel_oop\app\Models\Model.php on line 57
+[24-May-2025 21:05:40 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: App\Models\Model::find(): Argument #1 ($id) must be of type int, null given, called in C:\xampp\htdocs\hotel0514\hotel_oop\app\views\reservations\index.php on line 14 and defined in C:\xampp\htdocs\hotel0514\hotel_oop\app\Models\Model.php:57
+Stack trace:
+#0 C:\xampp\htdocs\hotel0514\hotel_oop\app\views\reservations\index.php(14): App\Models\Model->find(NULL)
+#1 C:\xampp\htdocs\hotel0514\hotel_oop\app\views\View.php(18): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\hotel0514\hotel_oop\app\Controllers\Controller.php(27): App\views\View::render('reservations/in...', Array)
+#3 C:\xampp\htdocs\hotel0514\hotel_oop\app\Controllers\ReservationsController.php(27): App\Controllers\Controller->render('reservations/in...', Array)
+#4 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(234): App\Controllers\ReservationsController->index()
+#5 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(30): App\Routing\Router->handleGetRequests('/reservations')
+#6 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(24): App\Routing\Router->dispatch('GET', '/reservations')
+#7 C:\xampp\htdocs\hotel0514\hotel_oop\public\index.php(11): App\Routing\Router->handle()
+#8 {main}
+  thrown in C:\xampp\htdocs\hotel0514\hotel_oop\app\Models\Model.php on line 57
+[24-May-2025 21:06:07 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: App\Models\Model::find(): Argument #1 ($id) must be of type int, null given, called in C:\xampp\htdocs\hotel0514\hotel_oop\app\views\reservations\index.php on line 14 and defined in C:\xampp\htdocs\hotel0514\hotel_oop\app\Models\Model.php:57
+Stack trace:
+#0 C:\xampp\htdocs\hotel0514\hotel_oop\app\views\reservations\index.php(14): App\Models\Model->find(NULL)
+#1 C:\xampp\htdocs\hotel0514\hotel_oop\app\views\View.php(18): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\hotel0514\hotel_oop\app\Controllers\Controller.php(27): App\views\View::render('reservations/in...', Array)
+#3 C:\xampp\htdocs\hotel0514\hotel_oop\app\Controllers\ReservationsController.php(27): App\Controllers\Controller->render('reservations/in...', Array)
+#4 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(229): App\Controllers\ReservationsController->index()
+#5 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(30): App\Routing\Router->handleGetRequests('/reservations')
+#6 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(24): App\Routing\Router->dispatch('GET', '/reservations')
+#7 C:\xampp\htdocs\hotel0514\hotel_oop\public\index.php(11): App\Routing\Router->handle()
+#8 {main}
+  thrown in C:\xampp\htdocs\hotel0514\hotel_oop\app\Models\Model.php on line 57
+[24-May-2025 21:06:08 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: App\Models\Model::find(): Argument #1 ($id) must be of type int, null given, called in C:\xampp\htdocs\hotel0514\hotel_oop\app\views\reservations\index.php on line 14 and defined in C:\xampp\htdocs\hotel0514\hotel_oop\app\Models\Model.php:57
+Stack trace:
+#0 C:\xampp\htdocs\hotel0514\hotel_oop\app\views\reservations\index.php(14): App\Models\Model->find(NULL)
+#1 C:\xampp\htdocs\hotel0514\hotel_oop\app\views\View.php(18): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\hotel0514\hotel_oop\app\Controllers\Controller.php(27): App\views\View::render('reservations/in...', Array)
+#3 C:\xampp\htdocs\hotel0514\hotel_oop\app\Controllers\ReservationsController.php(27): App\Controllers\Controller->render('reservations/in...', Array)
+#4 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(229): App\Controllers\ReservationsController->index()
+#5 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(30): App\Routing\Router->handleGetRequests('/reservations')
+#6 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(24): App\Routing\Router->dispatch('GET', '/reservations')
+#7 C:\xampp\htdocs\hotel0514\hotel_oop\public\index.php(11): App\Routing\Router->handle()
+#8 {main}
+  thrown in C:\xampp\htdocs\hotel0514\hotel_oop\app\Models\Model.php on line 57
+[24-May-2025 21:06:09 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: App\Models\Model::find(): Argument #1 ($id) must be of type int, null given, called in C:\xampp\htdocs\hotel0514\hotel_oop\app\views\reservations\index.php on line 14 and defined in C:\xampp\htdocs\hotel0514\hotel_oop\app\Models\Model.php:57
+Stack trace:
+#0 C:\xampp\htdocs\hotel0514\hotel_oop\app\views\reservations\index.php(14): App\Models\Model->find(NULL)
+#1 C:\xampp\htdocs\hotel0514\hotel_oop\app\views\View.php(18): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\hotel0514\hotel_oop\app\Controllers\Controller.php(27): App\views\View::render('reservations/in...', Array)
+#3 C:\xampp\htdocs\hotel0514\hotel_oop\app\Controllers\ReservationsController.php(27): App\Controllers\Controller->render('reservations/in...', Array)
+#4 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(229): App\Controllers\ReservationsController->index()
+#5 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(30): App\Routing\Router->handleGetRequests('/reservations')
+#6 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(24): App\Routing\Router->dispatch('GET', '/reservations')
+#7 C:\xampp\htdocs\hotel0514\hotel_oop\public\index.php(11): App\Routing\Router->handle()
+#8 {main}
+  thrown in C:\xampp\htdocs\hotel0514\hotel_oop\app\Models\Model.php on line 57
+[24-May-2025 21:07:24 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: App\Models\Model::find(): Argument #1 ($id) must be of type int, null given, called in C:\xampp\htdocs\hotel0514\hotel_oop\app\views\reservations\index.php on line 14 and defined in C:\xampp\htdocs\hotel0514\hotel_oop\app\Models\Model.php:57
+Stack trace:
+#0 C:\xampp\htdocs\hotel0514\hotel_oop\app\views\reservations\index.php(14): App\Models\Model->find(NULL)
+#1 C:\xampp\htdocs\hotel0514\hotel_oop\app\views\View.php(18): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\hotel0514\hotel_oop\app\Controllers\Controller.php(27): App\views\View::render('reservations/in...', Array)
+#3 C:\xampp\htdocs\hotel0514\hotel_oop\app\Controllers\ReservationsController.php(27): App\Controllers\Controller->render('reservations/in...', Array)
+#4 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(234): App\Controllers\ReservationsController->index()
+#5 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(30): App\Routing\Router->handleGetRequests('/reservations')
+#6 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(24): App\Routing\Router->dispatch('GET', '/reservations')
+#7 C:\xampp\htdocs\hotel0514\hotel_oop\public\index.php(11): App\Routing\Router->handle()
+#8 {main}
+  thrown in C:\xampp\htdocs\hotel0514\hotel_oop\app\Models\Model.php on line 57
+[24-May-2025 21:07:24 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: App\Models\Model::find(): Argument #1 ($id) must be of type int, null given, called in C:\xampp\htdocs\hotel0514\hotel_oop\app\views\reservations\index.php on line 14 and defined in C:\xampp\htdocs\hotel0514\hotel_oop\app\Models\Model.php:57
+Stack trace:
+#0 C:\xampp\htdocs\hotel0514\hotel_oop\app\views\reservations\index.php(14): App\Models\Model->find(NULL)
+#1 C:\xampp\htdocs\hotel0514\hotel_oop\app\views\View.php(18): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\hotel0514\hotel_oop\app\Controllers\Controller.php(27): App\views\View::render('reservations/in...', Array)
+#3 C:\xampp\htdocs\hotel0514\hotel_oop\app\Controllers\ReservationsController.php(27): App\Controllers\Controller->render('reservations/in...', Array)
+#4 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(234): App\Controllers\ReservationsController->index()
+#5 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(30): App\Routing\Router->handleGetRequests('/reservations')
+#6 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(24): App\Routing\Router->dispatch('GET', '/reservations')
+#7 C:\xampp\htdocs\hotel0514\hotel_oop\public\index.php(11): App\Routing\Router->handle()
+#8 {main}
+  thrown in C:\xampp\htdocs\hotel0514\hotel_oop\app\Models\Model.php on line 57
+[24-May-2025 21:07:25 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: App\Models\Model::find(): Argument #1 ($id) must be of type int, null given, called in C:\xampp\htdocs\hotel0514\hotel_oop\app\views\reservations\index.php on line 14 and defined in C:\xampp\htdocs\hotel0514\hotel_oop\app\Models\Model.php:57
+Stack trace:
+#0 C:\xampp\htdocs\hotel0514\hotel_oop\app\views\reservations\index.php(14): App\Models\Model->find(NULL)
+#1 C:\xampp\htdocs\hotel0514\hotel_oop\app\views\View.php(18): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\hotel0514\hotel_oop\app\Controllers\Controller.php(27): App\views\View::render('reservations/in...', Array)
+#3 C:\xampp\htdocs\hotel0514\hotel_oop\app\Controllers\ReservationsController.php(27): App\Controllers\Controller->render('reservations/in...', Array)
+#4 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(234): App\Controllers\ReservationsController->index()
+#5 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(30): App\Routing\Router->handleGetRequests('/reservations')
+#6 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(24): App\Routing\Router->dispatch('GET', '/reservations')
+#7 C:\xampp\htdocs\hotel0514\hotel_oop\public\index.php(11): App\Routing\Router->handle()
+#8 {main}
+  thrown in C:\xampp\htdocs\hotel0514\hotel_oop\app\Models\Model.php on line 57
+[24-May-2025 21:07:25 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: App\Models\Model::find(): Argument #1 ($id) must be of type int, null given, called in C:\xampp\htdocs\hotel0514\hotel_oop\app\views\reservations\index.php on line 14 and defined in C:\xampp\htdocs\hotel0514\hotel_oop\app\Models\Model.php:57
+Stack trace:
+#0 C:\xampp\htdocs\hotel0514\hotel_oop\app\views\reservations\index.php(14): App\Models\Model->find(NULL)
+#1 C:\xampp\htdocs\hotel0514\hotel_oop\app\views\View.php(18): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\hotel0514\hotel_oop\app\Controllers\Controller.php(27): App\views\View::render('reservations/in...', Array)
+#3 C:\xampp\htdocs\hotel0514\hotel_oop\app\Controllers\ReservationsController.php(27): App\Controllers\Controller->render('reservations/in...', Array)
+#4 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(234): App\Controllers\ReservationsController->index()
+#5 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(30): App\Routing\Router->handleGetRequests('/reservations')
+#6 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(24): App\Routing\Router->dispatch('GET', '/reservations')
+#7 C:\xampp\htdocs\hotel0514\hotel_oop\public\index.php(11): App\Routing\Router->handle()
+#8 {main}
+  thrown in C:\xampp\htdocs\hotel0514\hotel_oop\app\Models\Model.php on line 57
+[24-May-2025 21:11:12 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: App\Models\Model::find(): Argument #1 ($id) must be of type int, null given, called in C:\xampp\htdocs\hotel0514\hotel_oop\app\views\reservations\index.php on line 14 and defined in C:\xampp\htdocs\hotel0514\hotel_oop\app\Models\Model.php:57
+Stack trace:
+#0 C:\xampp\htdocs\hotel0514\hotel_oop\app\views\reservations\index.php(14): App\Models\Model->find(NULL)
+#1 C:\xampp\htdocs\hotel0514\hotel_oop\app\views\View.php(18): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\hotel0514\hotel_oop\app\Controllers\Controller.php(27): App\views\View::render('reservations/in...', Array)
+#3 C:\xampp\htdocs\hotel0514\hotel_oop\app\Controllers\ReservationsController.php(27): App\Controllers\Controller->render('reservations/in...', Array)
+#4 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(234): App\Controllers\ReservationsController->index()
+#5 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(30): App\Routing\Router->handleGetRequests('/reservations')
+#6 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(24): App\Routing\Router->dispatch('GET', '/reservations')
+#7 C:\xampp\htdocs\hotel0514\hotel_oop\public\index.php(11): App\Routing\Router->handle()
+#8 {main}
+  thrown in C:\xampp\htdocs\hotel0514\hotel_oop\app\Models\Model.php on line 57
+[24-May-2025 21:11:13 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: App\Models\Model::find(): Argument #1 ($id) must be of type int, null given, called in C:\xampp\htdocs\hotel0514\hotel_oop\app\views\reservations\index.php on line 14 and defined in C:\xampp\htdocs\hotel0514\hotel_oop\app\Models\Model.php:57
+Stack trace:
+#0 C:\xampp\htdocs\hotel0514\hotel_oop\app\views\reservations\index.php(14): App\Models\Model->find(NULL)
+#1 C:\xampp\htdocs\hotel0514\hotel_oop\app\views\View.php(18): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\hotel0514\hotel_oop\app\Controllers\Controller.php(27): App\views\View::render('reservations/in...', Array)
+#3 C:\xampp\htdocs\hotel0514\hotel_oop\app\Controllers\ReservationsController.php(27): App\Controllers\Controller->render('reservations/in...', Array)
+#4 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(234): App\Controllers\ReservationsController->index()
+#5 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(30): App\Routing\Router->handleGetRequests('/reservations')
+#6 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(24): App\Routing\Router->dispatch('GET', '/reservations')
+#7 C:\xampp\htdocs\hotel0514\hotel_oop\public\index.php(11): App\Routing\Router->handle()
+#8 {main}
+  thrown in C:\xampp\htdocs\hotel0514\hotel_oop\app\Models\Model.php on line 57
+[24-May-2025 21:11:14 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: App\Models\Model::find(): Argument #1 ($id) must be of type int, null given, called in C:\xampp\htdocs\hotel0514\hotel_oop\app\views\reservations\index.php on line 14 and defined in C:\xampp\htdocs\hotel0514\hotel_oop\app\Models\Model.php:57
+Stack trace:
+#0 C:\xampp\htdocs\hotel0514\hotel_oop\app\views\reservations\index.php(14): App\Models\Model->find(NULL)
+#1 C:\xampp\htdocs\hotel0514\hotel_oop\app\views\View.php(18): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\hotel0514\hotel_oop\app\Controllers\Controller.php(27): App\views\View::render('reservations/in...', Array)
+#3 C:\xampp\htdocs\hotel0514\hotel_oop\app\Controllers\ReservationsController.php(27): App\Controllers\Controller->render('reservations/in...', Array)
+#4 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(234): App\Controllers\ReservationsController->index()
+#5 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(30): App\Routing\Router->handleGetRequests('/reservations')
+#6 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(24): App\Routing\Router->dispatch('GET', '/reservations')
+#7 C:\xampp\htdocs\hotel0514\hotel_oop\public\index.php(11): App\Routing\Router->handle()
+#8 {main}
+  thrown in C:\xampp\htdocs\hotel0514\hotel_oop\app\Models\Model.php on line 57
+[24-May-2025 21:11:26 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: App\Models\Model::find(): Argument #1 ($id) must be of type int, null given, called in C:\xampp\htdocs\hotel0514\hotel_oop\app\views\reservations\index.php on line 14 and defined in C:\xampp\htdocs\hotel0514\hotel_oop\app\Models\Model.php:57
+Stack trace:
+#0 C:\xampp\htdocs\hotel0514\hotel_oop\app\views\reservations\index.php(14): App\Models\Model->find(NULL)
+#1 C:\xampp\htdocs\hotel0514\hotel_oop\app\views\View.php(18): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\hotel0514\hotel_oop\app\Controllers\Controller.php(27): App\views\View::render('reservations/in...', Array)
+#3 C:\xampp\htdocs\hotel0514\hotel_oop\app\Controllers\ReservationsController.php(27): App\Controllers\Controller->render('reservations/in...', Array)
+#4 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(234): App\Controllers\ReservationsController->index()
+#5 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(30): App\Routing\Router->handleGetRequests('/reservations')
+#6 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(24): App\Routing\Router->dispatch('GET', '/reservations')
+#7 C:\xampp\htdocs\hotel0514\hotel_oop\public\index.php(11): App\Routing\Router->handle()
+#8 {main}
+  thrown in C:\xampp\htdocs\hotel0514\hotel_oop\app\Models\Model.php on line 57
+[24-May-2025 21:11:26 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: App\Models\Model::find(): Argument #1 ($id) must be of type int, null given, called in C:\xampp\htdocs\hotel0514\hotel_oop\app\views\reservations\index.php on line 14 and defined in C:\xampp\htdocs\hotel0514\hotel_oop\app\Models\Model.php:57
+Stack trace:
+#0 C:\xampp\htdocs\hotel0514\hotel_oop\app\views\reservations\index.php(14): App\Models\Model->find(NULL)
+#1 C:\xampp\htdocs\hotel0514\hotel_oop\app\views\View.php(18): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\hotel0514\hotel_oop\app\Controllers\Controller.php(27): App\views\View::render('reservations/in...', Array)
+#3 C:\xampp\htdocs\hotel0514\hotel_oop\app\Controllers\ReservationsController.php(27): App\Controllers\Controller->render('reservations/in...', Array)
+#4 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(234): App\Controllers\ReservationsController->index()
+#5 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(30): App\Routing\Router->handleGetRequests('/reservations')
+#6 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(24): App\Routing\Router->dispatch('GET', '/reservations')
+#7 C:\xampp\htdocs\hotel0514\hotel_oop\public\index.php(11): App\Routing\Router->handle()
+#8 {main}
+  thrown in C:\xampp\htdocs\hotel0514\hotel_oop\app\Models\Model.php on line 57
+[24-May-2025 21:12:38 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: App\Controllers\ReservationsController::edit(): Argument #1 ($id) must be of type int, null given, called in C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php on line 124 and defined in C:\xampp\htdocs\hotel0514\hotel_oop\app\Controllers\ReservationsController.php:34
+Stack trace:
+#0 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(124): App\Controllers\ReservationsController->edit(NULL)
+#1 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(33): App\Routing\Router->handlePostRequests('/reservations/e...')
+#2 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(24): App\Routing\Router->dispatch('POST', '/reservations/e...')
+#3 C:\xampp\htdocs\hotel0514\hotel_oop\public\index.php(11): App\Routing\Router->handle()
+#4 {main}
+  thrown in C:\xampp\htdocs\hotel0514\hotel_oop\app\Controllers\ReservationsController.php on line 34
+[24-May-2025 21:13:06 Europe/Berlin] PHP Warning:  Undefined array key "room_id" in C:\xampp\htdocs\hotel0514\hotel_oop\app\Controllers\ReservationsController.php on line 74
+[24-May-2025 21:13:06 Europe/Berlin] PHP Warning:  Undefined array key "guest_id" in C:\xampp\htdocs\hotel0514\hotel_oop\app\Controllers\ReservationsController.php on line 75
+[24-May-2025 21:13:06 Europe/Berlin] PHP Warning:  Undefined array key "days" in C:\xampp\htdocs\hotel0514\hotel_oop\app\Controllers\ReservationsController.php on line 76
+[24-May-2025 21:13:06 Europe/Berlin] PHP Warning:  Undefined array key "start_date" in C:\xampp\htdocs\hotel0514\hotel_oop\app\Controllers\ReservationsController.php on line 77
+[24-May-2025 21:13:06 Europe/Berlin] available
+[24-May-2025 21:13:06 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: App\Models\Model::find(): Argument #1 ($id) must be of type int, null given, called in C:\xampp\htdocs\hotel0514\hotel_oop\app\views\reservations\index.php on line 13 and defined in C:\xampp\htdocs\hotel0514\hotel_oop\app\Models\Model.php:57
+Stack trace:
+#0 C:\xampp\htdocs\hotel0514\hotel_oop\app\views\reservations\index.php(13): App\Models\Model->find(NULL)
+#1 C:\xampp\htdocs\hotel0514\hotel_oop\app\views\View.php(18): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\hotel0514\hotel_oop\app\Controllers\Controller.php(27): App\views\View::render('reservations/in...', Array)
+#3 C:\xampp\htdocs\hotel0514\hotel_oop\app\Controllers\ReservationsController.php(27): App\Controllers\Controller->render('reservations/in...', Array)
+#4 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(234): App\Controllers\ReservationsController->index()
+#5 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(30): App\Routing\Router->handleGetRequests('/reservations')
+#6 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(24): App\Routing\Router->dispatch('GET', '/reservations')
+#7 C:\xampp\htdocs\hotel0514\hotel_oop\public\index.php(11): App\Routing\Router->handle()
+#8 {main}
+  thrown in C:\xampp\htdocs\hotel0514\hotel_oop\app\Models\Model.php on line 57
+[24-May-2025 21:14:11 Europe/Berlin] PHP Warning:  Undefined array key "room_id" in C:\xampp\htdocs\hotel0514\hotel_oop\app\Controllers\ReservationsController.php on line 74
+[24-May-2025 21:14:11 Europe/Berlin] PHP Warning:  Undefined array key "guest_id" in C:\xampp\htdocs\hotel0514\hotel_oop\app\Controllers\ReservationsController.php on line 75
+[24-May-2025 21:14:11 Europe/Berlin] PHP Warning:  Undefined array key "days" in C:\xampp\htdocs\hotel0514\hotel_oop\app\Controllers\ReservationsController.php on line 76
+[24-May-2025 21:14:11 Europe/Berlin] PHP Warning:  Undefined array key "start_date" in C:\xampp\htdocs\hotel0514\hotel_oop\app\Controllers\ReservationsController.php on line 77
+[24-May-2025 21:14:11 Europe/Berlin] available
+[24-May-2025 21:14:11 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: App\Models\Model::find(): Argument #1 ($id) must be of type int, null given, called in C:\xampp\htdocs\hotel0514\hotel_oop\app\views\reservations\index.php on line 13 and defined in C:\xampp\htdocs\hotel0514\hotel_oop\app\Models\Model.php:57
+Stack trace:
+#0 C:\xampp\htdocs\hotel0514\hotel_oop\app\views\reservations\index.php(13): App\Models\Model->find(NULL)
+#1 C:\xampp\htdocs\hotel0514\hotel_oop\app\views\View.php(18): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\hotel0514\hotel_oop\app\Controllers\Controller.php(27): App\views\View::render('reservations/in...', Array)
+#3 C:\xampp\htdocs\hotel0514\hotel_oop\app\Controllers\ReservationsController.php(27): App\Controllers\Controller->render('reservations/in...', Array)
+#4 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(234): App\Controllers\ReservationsController->index()
+#5 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(30): App\Routing\Router->handleGetRequests('/reservations')
+#6 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(24): App\Routing\Router->dispatch('GET', '/reservations')
+#7 C:\xampp\htdocs\hotel0514\hotel_oop\public\index.php(11): App\Routing\Router->handle()
+#8 {main}
+  thrown in C:\xampp\htdocs\hotel0514\hotel_oop\app\Models\Model.php on line 57
+[24-May-2025 21:17:08 Europe/Berlin] PHP Warning:  Undefined array key "room_id" in C:\xampp\htdocs\hotel0514\hotel_oop\app\Controllers\ReservationsController.php on line 74
+[24-May-2025 21:17:08 Europe/Berlin] PHP Warning:  Undefined array key "guest_id" in C:\xampp\htdocs\hotel0514\hotel_oop\app\Controllers\ReservationsController.php on line 75
+[24-May-2025 21:17:08 Europe/Berlin] PHP Warning:  Undefined array key "days" in C:\xampp\htdocs\hotel0514\hotel_oop\app\Controllers\ReservationsController.php on line 76
+[24-May-2025 21:17:08 Europe/Berlin] PHP Warning:  Undefined array key "start_date" in C:\xampp\htdocs\hotel0514\hotel_oop\app\Controllers\ReservationsController.php on line 77
+[24-May-2025 21:17:08 Europe/Berlin] available
+[24-May-2025 21:17:08 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: App\Models\Model::find(): Argument #1 ($id) must be of type int, null given, called in C:\xampp\htdocs\hotel0514\hotel_oop\app\views\reservations\index.php on line 13 and defined in C:\xampp\htdocs\hotel0514\hotel_oop\app\Models\Model.php:57
+Stack trace:
+#0 C:\xampp\htdocs\hotel0514\hotel_oop\app\views\reservations\index.php(13): App\Models\Model->find(NULL)
+#1 C:\xampp\htdocs\hotel0514\hotel_oop\app\views\View.php(18): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\hotel0514\hotel_oop\app\Controllers\Controller.php(27): App\views\View::render('reservations/in...', Array)
+#3 C:\xampp\htdocs\hotel0514\hotel_oop\app\Controllers\ReservationsController.php(27): App\Controllers\Controller->render('reservations/in...', Array)
+#4 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(234): App\Controllers\ReservationsController->index()
+#5 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(30): App\Routing\Router->handleGetRequests('/reservations')
+#6 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(24): App\Routing\Router->dispatch('GET', '/reservations')
+#7 C:\xampp\htdocs\hotel0514\hotel_oop\public\index.php(11): App\Routing\Router->handle()
+#8 {main}
+  thrown in C:\xampp\htdocs\hotel0514\hotel_oop\app\Models\Model.php on line 57
+[24-May-2025 21:24:36 Europe/Berlin] 17
+[24-May-2025 21:24:36 Europe/Berlin] PHP Warning:  Undefined array key "room_id" in C:\xampp\htdocs\hotel0514\hotel_oop\app\Controllers\ReservationsController.php on line 74
+[24-May-2025 21:24:36 Europe/Berlin] PHP Warning:  Undefined array key "guest_id" in C:\xampp\htdocs\hotel0514\hotel_oop\app\Controllers\ReservationsController.php on line 75
+[24-May-2025 21:24:36 Europe/Berlin] PHP Warning:  Undefined array key "days" in C:\xampp\htdocs\hotel0514\hotel_oop\app\Controllers\ReservationsController.php on line 76
+[24-May-2025 21:24:36 Europe/Berlin] PHP Warning:  Undefined array key "start_date" in C:\xampp\htdocs\hotel0514\hotel_oop\app\Controllers\ReservationsController.php on line 77
+[24-May-2025 21:24:36 Europe/Berlin] available
+[24-May-2025 21:24:36 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: App\Models\Model::find(): Argument #1 ($id) must be of type int, null given, called in C:\xampp\htdocs\hotel0514\hotel_oop\app\views\reservations\index.php on line 13 and defined in C:\xampp\htdocs\hotel0514\hotel_oop\app\Models\Model.php:57
+Stack trace:
+#0 C:\xampp\htdocs\hotel0514\hotel_oop\app\views\reservations\index.php(13): App\Models\Model->find(NULL)
+#1 C:\xampp\htdocs\hotel0514\hotel_oop\app\views\View.php(18): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\hotel0514\hotel_oop\app\Controllers\Controller.php(27): App\views\View::render('reservations/in...', Array)
+#3 C:\xampp\htdocs\hotel0514\hotel_oop\app\Controllers\ReservationsController.php(27): App\Controllers\Controller->render('reservations/in...', Array)
+#4 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(235): App\Controllers\ReservationsController->index()
+#5 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(30): App\Routing\Router->handleGetRequests('/reservations')
+#6 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(24): App\Routing\Router->dispatch('GET', '/reservations')
+#7 C:\xampp\htdocs\hotel0514\hotel_oop\public\index.php(11): App\Routing\Router->handle()
+#8 {main}
+  thrown in C:\xampp\htdocs\hotel0514\hotel_oop\app\Models\Model.php on line 57
+[24-May-2025 21:27:40 Europe/Berlin] PHP Warning:  Undefined array key "room_id" in C:\xampp\htdocs\hotel0514\hotel_oop\app\Controllers\ReservationsController.php on line 74
+[24-May-2025 21:27:40 Europe/Berlin] PHP Warning:  Undefined array key "guest_id" in C:\xampp\htdocs\hotel0514\hotel_oop\app\Controllers\ReservationsController.php on line 75
+[24-May-2025 21:27:40 Europe/Berlin] PHP Warning:  Undefined array key "days" in C:\xampp\htdocs\hotel0514\hotel_oop\app\Controllers\ReservationsController.php on line 76
+[24-May-2025 21:27:40 Europe/Berlin] PHP Warning:  Undefined array key "start_date" in C:\xampp\htdocs\hotel0514\hotel_oop\app\Controllers\ReservationsController.php on line 77
+[24-May-2025 21:27:40 Europe/Berlin] available
+[24-May-2025 21:27:40 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: App\Models\Model::find(): Argument #1 ($id) must be of type int, null given, called in C:\xampp\htdocs\hotel0514\hotel_oop\app\views\reservations\index.php on line 13 and defined in C:\xampp\htdocs\hotel0514\hotel_oop\app\Models\Model.php:57
+Stack trace:
+#0 C:\xampp\htdocs\hotel0514\hotel_oop\app\views\reservations\index.php(13): App\Models\Model->find(NULL)
+#1 C:\xampp\htdocs\hotel0514\hotel_oop\app\views\View.php(18): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\hotel0514\hotel_oop\app\Controllers\Controller.php(27): App\views\View::render('reservations/in...', Array)
+#3 C:\xampp\htdocs\hotel0514\hotel_oop\app\Controllers\ReservationsController.php(27): App\Controllers\Controller->render('reservations/in...', Array)
+#4 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(236): App\Controllers\ReservationsController->index()
+#5 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(30): App\Routing\Router->handleGetRequests('/reservations')
+#6 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(24): App\Routing\Router->dispatch('GET', '/reservations')
+#7 C:\xampp\htdocs\hotel0514\hotel_oop\public\index.php(11): App\Routing\Router->handle()
+#8 {main}
+  thrown in C:\xampp\htdocs\hotel0514\hotel_oop\app\Models\Model.php on line 57
+[24-May-2025 21:29:18 Europe/Berlin] PHP Warning:  Undefined array key "id" in C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php on line 120
+[24-May-2025 21:29:18 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: App\Controllers\ReservationsController::update(): Argument #1 ($id) must be of type int, null given, called in C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php on line 120 and defined in C:\xampp\htdocs\hotel0514\hotel_oop\app\Controllers\ReservationsController.php:72
+Stack trace:
+#0 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(120): App\Controllers\ReservationsController->update(NULL, Array)
+#1 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(33): App\Routing\Router->handlePostRequests('/reservations/e...')
+#2 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(24): App\Routing\Router->dispatch('POST', '/reservations/e...')
+#3 C:\xampp\htdocs\hotel0514\hotel_oop\public\index.php(11): App\Routing\Router->handle()
+#4 {main}
+  thrown in C:\xampp\htdocs\hotel0514\hotel_oop\app\Controllers\ReservationsController.php on line 72
+[24-May-2025 21:30:05 Europe/Berlin] 43
+[24-May-2025 21:30:05 Europe/Berlin] 2
+[24-May-2025 21:30:05 Europe/Berlin] 3
+[24-May-2025 21:30:05 Europe/Berlin] 2025-05-27
+[24-May-2025 21:30:05 Europe/Berlin] PHP Warning:  Undefined array key "id" in C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php on line 121
+[24-May-2025 21:30:05 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: App\Controllers\ReservationsController::update(): Argument #1 ($id) must be of type int, null given, called in C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php on line 121 and defined in C:\xampp\htdocs\hotel0514\hotel_oop\app\Controllers\ReservationsController.php:72
+Stack trace:
+#0 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(121): App\Controllers\ReservationsController->update(NULL, Array)
+#1 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(33): App\Routing\Router->handlePostRequests('/reservations/e...')
+#2 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(24): App\Routing\Router->dispatch('POST', '/reservations/e...')
+#3 C:\xampp\htdocs\hotel0514\hotel_oop\public\index.php(11): App\Routing\Router->handle()
+#4 {main}
+  thrown in C:\xampp\htdocs\hotel0514\hotel_oop\app\Controllers\ReservationsController.php on line 72
+[24-May-2025 21:31:15 Europe/Berlin] 18
+[24-May-2025 21:31:15 Europe/Berlin] 43
+[24-May-2025 21:31:15 Europe/Berlin] 2
+[24-May-2025 21:31:15 Europe/Berlin] 3
+[24-May-2025 21:31:15 Europe/Berlin] 2025-05-27
+[24-May-2025 21:31:15 Europe/Berlin] available
+[24-May-2025 21:31:22 Europe/Berlin] 18
+[24-May-2025 21:31:22 Europe/Berlin] 43
+[24-May-2025 21:31:22 Europe/Berlin] 2
+[24-May-2025 21:31:22 Europe/Berlin] 3
+[24-May-2025 21:31:22 Europe/Berlin] 2025-05-29
+[24-May-2025 21:31:22 Europe/Berlin] available
+[24-May-2025 21:31:49 Europe/Berlin] 19
+[24-May-2025 21:31:49 Europe/Berlin] 1
+[24-May-2025 21:31:49 Europe/Berlin] 2
+[24-May-2025 21:31:49 Europe/Berlin] 3
+[24-May-2025 21:31:49 Europe/Berlin] 2025-05-29
+[24-May-2025 21:31:49 Europe/Berlin] occupied
+[24-May-2025 21:35:17 Europe/Berlin] 19
+[24-May-2025 21:35:17 Europe/Berlin] 1
+[24-May-2025 21:35:17 Europe/Berlin] 2
+[24-May-2025 21:35:17 Europe/Berlin] 3
+[24-May-2025 21:35:17 Europe/Berlin] 2025-05-29
+[24-May-2025 21:35:17 Europe/Berlin] occupied

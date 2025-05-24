@@ -114,6 +114,14 @@ class Router {
                     $reservationsController->save($data);
                 }
                 break;
+            case '/reservations/edit/submit':
+                foreach($data as $d) error_log($d); 
+                $reservationsController = new ReservationsController();
+                if(!empty($data)) {
+                    $reservationsController->update($data['id'],$data);
+                    break;
+                }
+                break;
             case '/reservations/edit':
                 $reservationsController = new ReservationsController();
                 $reservationsController->edit($id);
