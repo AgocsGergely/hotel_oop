@@ -1,5 +1,6 @@
 <?php
 namespace App\Routing;
+use App\Controllers\GuestsController;
 use App\Controllers\RoomsController;
 use App\Controllers\ClassController;
 use App\Controllers\HomeController;
@@ -78,18 +79,28 @@ class Router {
                 $roomsController->create();
                 break;
             case '/rooms':
-    if (!empty($data)) {
-        $roomsController = new RoomsController();
-        $roomsController->save($data);
-    } else {
-        // Log or display an error instead of falling through to 404
-        error_log("Empty data received for /rooms POST");
-        Display::message("No data provided for room creation", "error");
-    }
-    break;
+                if(!empty($data)) {
+                    $roomsController = new RoomsController();
+                    $roomsController->save($data);
+                }
+                break;
             case '/rooms/edit':
                 $roomsController = new RoomsController();
                 $roomsController->edit($id);
+                break;
+            case '/guests/create':
+                $guestsController = new GuestsController();
+                $guestsController->create();
+                break;
+            case '/guests':
+                if(!empty($data)) {
+                    $guestsController = new GuestsController();
+                    $guestsController->save($data);
+                }
+                break;
+            case '/guests/edit':
+                $guestsController = new GuestsController();
+                $guestsController->edit($id);
                 break;
             case '/install':
                 Layout::header();
@@ -119,6 +130,11 @@ class Router {
                 $roomsController = new RoomsController();
                 $roomsController->update($id, $data);
                 break;
+            case '/guests':
+                $id = $data['id'] ?? null;
+                $guestsController = new GuestsController();
+                $guestsController->update($id, $data);
+                break;
             default:
                 $this->notFound();
         }
@@ -138,6 +154,10 @@ class Router {
             case '/rooms':
                 $roomsController = new RoomsController();
                 $roomsController->delete((int) $data['id']);
+                break;
+            case '/guests':
+                $guestsController = new GuestsController();
+                $guestsController->delete((int) $data['id']);
                 break;
             default:
                 $this->notFound();
@@ -174,6 +194,10 @@ class Router {
             case '/rooms':
                 $roomsController = new RoomsController();
                 $roomsController->index();
+                break;
+            case '/guests':
+                $guestsController = new GuestsController();
+                $guestsController->index();
                 break;
             default:
                 $this->notFound();

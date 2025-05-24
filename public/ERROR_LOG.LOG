@@ -669,3 +669,5 @@ Stack trace:
 [24-May-2025 16:24:04 Europe/Berlin] PHP Warning:  Attempt to read property "price" on null in C:\xampp\htdocs\hotel0514\hotel_oop\app\views\rooms\edit.php on line 13
 [24-May-2025 16:24:04 Europe/Berlin] PHP Warning:  Undefined variable $room in C:\xampp\htdocs\hotel0514\hotel_oop\app\views\rooms\edit.php on line 14
 [24-May-2025 16:24:04 Europe/Berlin] PHP Warning:  Attempt to read property "notes" on null in C:\xampp\htdocs\hotel0514\hotel_oop\app\views\rooms\edit.php on line 14
+[24-May-2025 17:07:00 Europe/Berlin] PHP Warning:  Undefined variable $rooms in C:\xampp\htdocs\hotel0514\hotel_oop\app\views\guests\index.php on line 4
+[24-May-2025 17:07:00 Europe/Berlin] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp\htdocs\hotel0514\hotel_oop\app\views\guests\index.php on line 4
