@@ -671,3 +671,154 @@ Stack trace:
 [24-May-2025 16:24:04 Europe/Berlin] PHP Warning:  Attempt to read property "notes" on null in C:\xampp\htdocs\hotel0514\hotel_oop\app\views\rooms\edit.php on line 14
 [24-May-2025 17:07:00 Europe/Berlin] PHP Warning:  Undefined variable $rooms in C:\xampp\htdocs\hotel0514\hotel_oop\app\views\guests\index.php on line 4
 [24-May-2025 17:07:00 Europe/Berlin] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp\htdocs\hotel0514\hotel_oop\app\views\guests\index.php on line 4
+[24-May-2025 18:14:51 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\hotel0514\hotel_oop\app\views\reservations\create.php on line 13
+[24-May-2025 18:14:51 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\hotel0514\hotel_oop\app\views\reservations\create.php on line 13
+[24-May-2025 18:14:51 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\hotel0514\hotel_oop\app\views\reservations\create.php on line 13
+[24-May-2025 18:14:51 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\hotel0514\hotel_oop\app\views\reservations\create.php on line 13
+[24-May-2025 18:14:51 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\hotel0514\hotel_oop\app\views\reservations\create.php on line 13
+[24-May-2025 18:14:51 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\hotel0514\hotel_oop\app\views\reservations\create.php on line 13
+[24-May-2025 18:14:51 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\hotel0514\hotel_oop\app\views\reservations\create.php on line 13
+[24-May-2025 18:14:51 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\hotel0514\hotel_oop\app\views\reservations\create.php on line 13
+[24-May-2025 18:14:51 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\hotel0514\hotel_oop\app\views\reservations\create.php on line 13
+[24-May-2025 18:14:51 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\hotel0514\hotel_oop\app\views\reservations\create.php on line 13
+[24-May-2025 18:16:58 Europe/Berlin] PHP Fatal error:  Uncaught Error: Cannot use object of type App\Models\RoomsModel as array in C:\xampp\htdocs\hotel0514\hotel_oop\app\views\reservations\create.php:13
+Stack trace:
+#0 C:\xampp\htdocs\hotel0514\hotel_oop\app\views\View.php(18): include()
+#1 C:\xampp\htdocs\hotel0514\hotel_oop\app\Controllers\Controller.php(27): App\views\View::render('reservations/cr...', Array)
+#2 C:\xampp\htdocs\hotel0514\hotel_oop\app\Controllers\ReservationsController.php(31): App\Controllers\Controller->render('reservations/cr...', Array)
+#3 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(109): App\Controllers\ReservationsController->create()
+#4 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(33): App\Routing\Router->handlePostRequests('/reservations/c...')
+#5 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(24): App\Routing\Router->dispatch('POST', '/reservations/c...')
+#6 C:\xampp\htdocs\hotel0514\hotel_oop\public\index.php(11): App\Routing\Router->handle()
+#7 {main}
+  thrown in C:\xampp\htdocs\hotel0514\hotel_oop\app\views\reservations\create.php on line 13
+[24-May-2025 18:21:00 Europe/Berlin] PHP Fatal error:  Uncaught Error: Cannot use object of type App\Models\RoomsModel as array in C:\xampp\htdocs\hotel0514\hotel_oop\app\views\reservations\create.php:13
+Stack trace:
+#0 C:\xampp\htdocs\hotel0514\hotel_oop\app\views\View.php(18): include()
+#1 C:\xampp\htdocs\hotel0514\hotel_oop\app\Controllers\Controller.php(27): App\views\View::render('reservations/cr...', Array)
+#2 C:\xampp\htdocs\hotel0514\hotel_oop\app\Controllers\ReservationsController.php(31): App\Controllers\Controller->render('reservations/cr...', Array)
+#3 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(109): App\Controllers\ReservationsController->create()
+#4 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(33): App\Routing\Router->handlePostRequests('/reservations/c...')
+#5 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(24): App\Routing\Router->dispatch('POST', '/reservations/c...')
+#6 C:\xampp\htdocs\hotel0514\hotel_oop\public\index.php(11): App\Routing\Router->handle()
+#7 {main}
+  thrown in C:\xampp\htdocs\hotel0514\hotel_oop\app\views\reservations\create.php on line 13
+[24-May-2025 18:21:17 Europe/Berlin] PHP Fatal error:  Uncaught Error: Cannot use object of type App\Models\RoomsModel as array in C:\xampp\htdocs\hotel0514\hotel_oop\app\views\reservations\create.php:13
+Stack trace:
+#0 C:\xampp\htdocs\hotel0514\hotel_oop\app\views\View.php(18): include()
+#1 C:\xampp\htdocs\hotel0514\hotel_oop\app\Controllers\Controller.php(27): App\views\View::render('reservations/cr...', Array)
+#2 C:\xampp\htdocs\hotel0514\hotel_oop\app\Controllers\ReservationsController.php(31): App\Controllers\Controller->render('reservations/cr...', Array)
+#3 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(109): App\Controllers\ReservationsController->create()
+#4 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(33): App\Routing\Router->handlePostRequests('/reservations/c...')
+#5 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(24): App\Routing\Router->dispatch('POST', '/reservations/c...')
+#6 C:\xampp\htdocs\hotel0514\hotel_oop\public\index.php(11): App\Routing\Router->handle()
+#7 {main}
+  thrown in C:\xampp\htdocs\hotel0514\hotel_oop\app\views\reservations\create.php on line 13
+[24-May-2025 18:22:42 Europe/Berlin] PHP Fatal error:  Uncaught Error: Cannot use object of type App\Models\RoomsModel as array in C:\xampp\htdocs\hotel0514\hotel_oop\app\views\reservations\create.php:13
+Stack trace:
+#0 C:\xampp\htdocs\hotel0514\hotel_oop\app\views\View.php(18): include()
+#1 C:\xampp\htdocs\hotel0514\hotel_oop\app\Controllers\Controller.php(27): App\views\View::render('reservations/cr...', Array)
+#2 C:\xampp\htdocs\hotel0514\hotel_oop\app\Controllers\ReservationsController.php(31): App\Controllers\Controller->render('reservations/cr...', Array)
+#3 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(109): App\Controllers\ReservationsController->create()
+#4 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(33): App\Routing\Router->handlePostRequests('/reservations/c...')
+#5 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(24): App\Routing\Router->dispatch('POST', '/reservations/c...')
+#6 C:\xampp\htdocs\hotel0514\hotel_oop\public\index.php(11): App\Routing\Router->handle()
+#7 {main}
+  thrown in C:\xampp\htdocs\hotel0514\hotel_oop\app\views\reservations\create.php on line 13
+[24-May-2025 18:22:43 Europe/Berlin] PHP Fatal error:  Uncaught Error: Cannot use object of type App\Models\RoomsModel as array in C:\xampp\htdocs\hotel0514\hotel_oop\app\views\reservations\create.php:13
+Stack trace:
+#0 C:\xampp\htdocs\hotel0514\hotel_oop\app\views\View.php(18): include()
+#1 C:\xampp\htdocs\hotel0514\hotel_oop\app\Controllers\Controller.php(27): App\views\View::render('reservations/cr...', Array)
+#2 C:\xampp\htdocs\hotel0514\hotel_oop\app\Controllers\ReservationsController.php(31): App\Controllers\Controller->render('reservations/cr...', Array)
+#3 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(109): App\Controllers\ReservationsController->create()
+#4 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(33): App\Routing\Router->handlePostRequests('/reservations/c...')
+#5 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(24): App\Routing\Router->dispatch('POST', '/reservations/c...')
+#6 C:\xampp\htdocs\hotel0514\hotel_oop\public\index.php(11): App\Routing\Router->handle()
+#7 {main}
+  thrown in C:\xampp\htdocs\hotel0514\hotel_oop\app\views\reservations\create.php on line 13
+[24-May-2025 18:25:53 Europe/Berlin] PHP Fatal error:  Uncaught Error: Object of class App\Models\RoomsModel could not be converted to string in C:\xampp\htdocs\hotel0514\hotel_oop\app\views\reservations\create.php:12
+Stack trace:
+#0 C:\xampp\htdocs\hotel0514\hotel_oop\app\views\View.php(18): include()
+#1 C:\xampp\htdocs\hotel0514\hotel_oop\app\Controllers\Controller.php(27): App\views\View::render('reservations/cr...', Array)
+#2 C:\xampp\htdocs\hotel0514\hotel_oop\app\Controllers\ReservationsController.php(31): App\Controllers\Controller->render('reservations/cr...', Array)
+#3 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(109): App\Controllers\ReservationsController->create()
+#4 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(33): App\Routing\Router->handlePostRequests('/reservations/c...')
+#5 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(24): App\Routing\Router->dispatch('POST', '/reservations/c...')
+#6 C:\xampp\htdocs\hotel0514\hotel_oop\public\index.php(11): App\Routing\Router->handle()
+#7 {main}
+  thrown in C:\xampp\htdocs\hotel0514\hotel_oop\app\views\reservations\create.php on line 12
+[24-May-2025 18:28:01 Europe/Berlin] PHP Fatal error:  Uncaught Error: Cannot use object of type App\Models\RoomsModel as array in C:\xampp\htdocs\hotel0514\hotel_oop\app\views\reservations\create.php:17
+Stack trace:
+#0 C:\xampp\htdocs\hotel0514\hotel_oop\app\views\View.php(18): include()
+#1 C:\xampp\htdocs\hotel0514\hotel_oop\app\Controllers\Controller.php(27): App\views\View::render('reservations/cr...', Array)
+#2 C:\xampp\htdocs\hotel0514\hotel_oop\app\Controllers\ReservationsController.php(31): App\Controllers\Controller->render('reservations/cr...', Array)
+#3 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(109): App\Controllers\ReservationsController->create()
+#4 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(33): App\Routing\Router->handlePostRequests('/reservations/c...')
+#5 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(24): App\Routing\Router->dispatch('POST', '/reservations/c...')
+#6 C:\xampp\htdocs\hotel0514\hotel_oop\public\index.php(11): App\Routing\Router->handle()
+#7 {main}
+  thrown in C:\xampp\htdocs\hotel0514\hotel_oop\app\views\reservations\create.php on line 17
+[24-May-2025 18:30:13 Europe/Berlin] PHP Fatal error:  Uncaught Error: Cannot use object of type App\Models\RoomsModel as array in C:\xampp\htdocs\hotel0514\hotel_oop\app\views\reservations\create.php:16
+Stack trace:
+#0 C:\xampp\htdocs\hotel0514\hotel_oop\app\views\View.php(18): include()
+#1 C:\xampp\htdocs\hotel0514\hotel_oop\app\Controllers\Controller.php(27): App\views\View::render('reservations/cr...', Array)
+#2 C:\xampp\htdocs\hotel0514\hotel_oop\app\Controllers\ReservationsController.php(31): App\Controllers\Controller->render('reservations/cr...', Array)
+#3 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(109): App\Controllers\ReservationsController->create()
+#4 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(33): App\Routing\Router->handlePostRequests('/reservations/c...')
+#5 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(24): App\Routing\Router->dispatch('POST', '/reservations/c...')
+#6 C:\xampp\htdocs\hotel0514\hotel_oop\public\index.php(11): App\Routing\Router->handle()
+#7 {main}
+  thrown in C:\xampp\htdocs\hotel0514\hotel_oop\app\views\reservations\create.php on line 16
+[24-May-2025 18:31:49 Europe/Berlin] PHP Fatal error:  Uncaught Error: Cannot use object of type App\Models\RoomsModel as array in C:\xampp\htdocs\hotel0514\hotel_oop\app\views\reservations\create.php:15
+Stack trace:
+#0 C:\xampp\htdocs\hotel0514\hotel_oop\app\views\View.php(18): include()
+#1 C:\xampp\htdocs\hotel0514\hotel_oop\app\Controllers\Controller.php(27): App\views\View::render('reservations/cr...', Array)
+#2 C:\xampp\htdocs\hotel0514\hotel_oop\app\Controllers\ReservationsController.php(31): App\Controllers\Controller->render('reservations/cr...', Array)
+#3 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(109): App\Controllers\ReservationsController->create()
+#4 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(33): App\Routing\Router->handlePostRequests('/reservations/c...')
+#5 C:\xampp\htdocs\hotel0514\hotel_oop\app\Routing\Router.php(24): App\Routing\Router->dispatch('POST', '/reservations/c...')
+#6 C:\xampp\htdocs\hotel0514\hotel_oop\public\index.php(11): App\Routing\Router->handle()
+#7 {main}
+  thrown in C:\xampp\htdocs\hotel0514\hotel_oop\app\views\reservations\create.php on line 15
+[24-May-2025 18:37:28 Europe/Berlin] PHP Warning:  Undefined property: App\Models\RoomsModel::$name in C:\xampp\htdocs\hotel0514\hotel_oop\app\views\reservations\create.php on line 23
+[24-May-2025 18:40:45 Europe/Berlin] Rooms in view: Array
+(
+    [0] => App\Models\RoomsModel Object
+        (
+            [id] => 2
+            [db:protected] => App\Database\Database Object
+                (
+                    [pdo:App\Database\Database:private] => PDO Object
+                        (
+                        )
+
+                )
+
+            [floor] => 4
+            [room_number] => 42
+            [capacity] => 3
+            [price] => 24000
+            [notes] => Nincs
+        )
+
+)
+
+[24-May-2025 18:40:45 Europe/Berlin] Guests in view: Array
+(
+    [0] => App\Models\GuestsModel Object
+        (
+            [id] => 3
+            [db:protected] => App\Database\Database Object
+                (
+                    [pdo:App\Database\Database:private] => PDO Object
+                        (
+                        )
+
+                )
+
+            [name] => Kiss Antal
+            [age] => 32
+        )
+
+)
+

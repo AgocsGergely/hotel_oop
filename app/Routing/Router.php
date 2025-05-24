@@ -5,7 +5,9 @@ use App\Controllers\RoomsController;
 use App\Controllers\ClassController;
 use App\Controllers\HomeController;
 use App\Controllers\SubjectController;
+use App\Controllers\ReservationsController;
 use App\Database\Install;
+use App\Models\ReservationsModel;
 use App\views\Display;
 use App\Views\Layout;
 
@@ -102,6 +104,20 @@ class Router {
                 $guestsController = new GuestsController();
                 $guestsController->edit($id);
                 break;
+            case '/reservations/create':
+                $reservationsController = new ReservationsController();
+                $reservationsController->create();
+                break;
+            case '/reservations':
+                if(!empty($data)) {
+                    $reservationsController = new ReservationsController();
+                    $reservationsController->save($data);
+                }
+                break;
+            case '/reservations/edit':
+                $reservationsController = new ReservationsController();
+                $reservationsController->edit($id);
+                break;
             case '/install':
                 Layout::header();
                 $db = new Install();
@@ -135,6 +151,11 @@ class Router {
                 $guestsController = new GuestsController();
                 $guestsController->update($id, $data);
                 break;
+            case '/reservations':
+                $id = $data['id'] ?? null;
+                $reservationsController = new ReservationsController();
+                $reservationsController->update($id, $data);
+                break;
             default:
                 $this->notFound();
         }
@@ -158,6 +179,10 @@ class Router {
             case '/guests':
                 $guestsController = new GuestsController();
                 $guestsController->delete((int) $data['id']);
+                break;
+            case '/reservations':
+                $reservationsController = new ReservationsController();
+                $reservationsController->delete((int) $data['id']);
                 break;
             default:
                 $this->notFound();
@@ -198,6 +223,10 @@ class Router {
             case '/guests':
                 $guestsController = new GuestsController();
                 $guestsController->index();
+                break;
+            case '/reservations':
+                $reservationsController = new ReservationsController();
+                $reservationsController->index();
                 break;
             default:
                 $this->notFound();

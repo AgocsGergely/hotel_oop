@@ -48,6 +48,7 @@ class Layout
             <li class="nav-button"><a href="/classes"><button style="button" title="Osztályok">Osztályok</button></a></li>-->
             <li class="nav-button"><a href="/rooms"><button style="button" title="Osztályok">Szobák</button></a></li>
             <li class="nav-button"><a href="/guests"><button style="button" title="Osztályok">Vendégek</button></a></li>
+                        <li class="nav-button"><a href="/reservations"><button style="button" title="Osztályok">Foglalások</button></a></li>
             <li class="nav-button">
                 <form action="/install" method="post">
                     <input type="hidden" name="action" value="create_database">
