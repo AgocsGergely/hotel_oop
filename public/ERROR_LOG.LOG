@@ -644,3 +644,5 @@ Stack trace:
 [21-May-2025 15:43:08 Europe/Berlin] SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'guests' already exists
 [21-May-2025 15:43:08 Europe/Berlin] SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'rooms' already exists
 [21-May-2025 15:43:08 Europe/Berlin] SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'reservations' already exists
+[24-May-2025 13:09:21 UTC] could not find driver
+[24-May-2025 13:12:24 UTC] could not find driver

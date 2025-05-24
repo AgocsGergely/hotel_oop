@@ -71,7 +71,7 @@ class Install extends Database
         if(empty($dbName)) $dbName = $this->dbName;
         try {
             $sql = "
-                CREATE TABLE `$dbName`.`$tableName`
+                CREATE TABLE IF NOT EXISTS `$dbName`.`$tableName`
                 ($tableBody)
                 ENGINE = InnoDB
                 DEFAULT CHARACTER SET = utf8

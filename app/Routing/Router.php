@@ -1,5 +1,6 @@
 <?php
 namespace App\Routing;
+use App\Controllers\RoomsController;
 use App\Controllers\ClassController;
 use App\Controllers\HomeController;
 use App\Controllers\SubjectController;
@@ -142,6 +143,10 @@ class Router {
             case '/classes':
                 $classController = new ClassController();
                 $classController->index();
+                break;
+            case '/rooms':
+                $roomsController = new RoomsController();
+                $roomsController->index();
                 break;
             default:
                 $this->notFound();
