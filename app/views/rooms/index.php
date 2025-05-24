@@ -6,10 +6,10 @@ foreach ($rooms as $room) {
             <tr>
                 <td>{$room->id}</td>
                 <td>{$room->floor}</td>
-                <td>{$room->number}</td>
+                <td>{$room->room_number}</td>
                 <td>{$room->capacity}</td>
                 <td>{$room->price}</td>
-                <td>{$room->comment}</td>
+                <td>{$room->notes}</td>
                 <td class='flex float-right'>
                     <form method='post' action='/rooms/edit'>
                         <input type='hidden' name='id' value='{$room->id}'>

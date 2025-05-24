@@ -73,6 +73,24 @@ class Router {
                 $classController = new ClassController();
                 $classController->edit($id);
                 break;
+            case '/rooms/create':
+                $roomsController = new RoomsController();
+                $roomsController->create();
+                break;
+            case '/rooms':
+    if (!empty($data)) {
+        $roomsController = new RoomsController();
+        $roomsController->save($data);
+    } else {
+        // Log or display an error instead of falling through to 404
+        error_log("Empty data received for /rooms POST");
+        Display::message("No data provided for room creation", "error");
+    }
+    break;
+            case '/rooms/edit':
+                $roomsController = new RoomsController();
+                $roomsController->edit($id);
+                break;
             case '/install':
                 Layout::header();
                 $db = new Install();
@@ -96,6 +114,11 @@ class Router {
                 $classController = new ClassController();
                 $classController->update($id, $data);
                 break;
+            case '/rooms':
+                $id = $data['id'] ?? null;
+                $roomsController = new RoomsController();
+                $roomsController->update($id, $data);
+                break;
             default:
                 $this->notFound();
         }
@@ -111,6 +134,10 @@ class Router {
             case '/classes':
                 $classController = new ClassController();
                 $classController->delete((int) $data['id']);
+                break;
+            case '/rooms':
+                $roomsController = new RoomsController();
+                $roomsController->delete((int) $data['id']);
                 break;
             default:
                 $this->notFound();

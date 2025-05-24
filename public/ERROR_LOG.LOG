@@ -646,3 +646,26 @@ Stack trace:
 [21-May-2025 15:43:08 Europe/Berlin] SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'reservations' already exists
 [24-May-2025 13:09:21 UTC] could not find driver
 [24-May-2025 13:12:24 UTC] could not find driver
+[24-May-2025 15:44:32 Europe/Berlin] SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected
+[24-May-2025 15:51:54 Europe/Berlin] SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected
+[24-May-2025 15:51:56 Europe/Berlin] SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected
+[24-May-2025 15:53:29 Europe/Berlin] SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected
+[24-May-2025 15:55:31 Europe/Berlin] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SELECT * FROM `rooms` ORDER BY floor, room_number DESC' at line 2
+[24-May-2025 16:00:21 Europe/Berlin] PHP Warning:  Undefined property: App\Models\RoomsModel::$number in C:\xampp\htdocs\hotel0514\hotel_oop\app\views\rooms\index.php on line 9
+[24-May-2025 16:00:21 Europe/Berlin] PHP Warning:  Undefined property: App\Models\RoomsModel::$comment in C:\xampp\htdocs\hotel0514\hotel_oop\app\views\rooms\index.php on line 12
+[24-May-2025 16:00:36 Europe/Berlin] PHP Warning:  Undefined property: App\Models\RoomsModel::$number in C:\xampp\htdocs\hotel0514\hotel_oop\app\views\rooms\index.php on line 9
+[24-May-2025 16:00:36 Europe/Berlin] PHP Warning:  Undefined property: App\Models\RoomsModel::$comment in C:\xampp\htdocs\hotel0514\hotel_oop\app\views\rooms\index.php on line 12
+[24-May-2025 16:24:04 Europe/Berlin] PHP Warning:  Undefined variable $room in C:\xampp\htdocs\hotel0514\hotel_oop\app\views\rooms\edit.php on line 6
+[24-May-2025 16:24:04 Europe/Berlin] PHP Warning:  Attempt to read property "id" on null in C:\xampp\htdocs\hotel0514\hotel_oop\app\views\rooms\edit.php on line 6
+[24-May-2025 16:24:04 Europe/Berlin] PHP Warning:  Undefined variable $room in C:\xampp\htdocs\hotel0514\hotel_oop\app\views\rooms\edit.php on line 9
+[24-May-2025 16:24:04 Europe/Berlin] PHP Warning:  Attempt to read property "id" on null in C:\xampp\htdocs\hotel0514\hotel_oop\app\views\rooms\edit.php on line 9
+[24-May-2025 16:24:04 Europe/Berlin] PHP Warning:  Undefined variable $room in C:\xampp\htdocs\hotel0514\hotel_oop\app\views\rooms\edit.php on line 10
+[24-May-2025 16:24:04 Europe/Berlin] PHP Warning:  Attempt to read property "floor" on null in C:\xampp\htdocs\hotel0514\hotel_oop\app\views\rooms\edit.php on line 10
+[24-May-2025 16:24:04 Europe/Berlin] PHP Warning:  Undefined variable $room in C:\xampp\htdocs\hotel0514\hotel_oop\app\views\rooms\edit.php on line 11
+[24-May-2025 16:24:04 Europe/Berlin] PHP Warning:  Attempt to read property "room_number" on null in C:\xampp\htdocs\hotel0514\hotel_oop\app\views\rooms\edit.php on line 11
+[24-May-2025 16:24:04 Europe/Berlin] PHP Warning:  Undefined variable $room in C:\xampp\htdocs\hotel0514\hotel_oop\app\views\rooms\edit.php on line 12
+[24-May-2025 16:24:04 Europe/Berlin] PHP Warning:  Attempt to read property "capacity" on null in C:\xampp\htdocs\hotel0514\hotel_oop\app\views\rooms\edit.php on line 12
+[24-May-2025 16:24:04 Europe/Berlin] PHP Warning:  Undefined variable $room in C:\xampp\htdocs\hotel0514\hotel_oop\app\views\rooms\edit.php on line 13
+[24-May-2025 16:24:04 Europe/Berlin] PHP Warning:  Attempt to read property "price" on null in C:\xampp\htdocs\hotel0514\hotel_oop\app\views\rooms\edit.php on line 13
+[24-May-2025 16:24:04 Europe/Berlin] PHP Warning:  Undefined variable $room in C:\xampp\htdocs\hotel0514\hotel_oop\app\views\rooms\edit.php on line 14
+[24-May-2025 16:24:04 Europe/Berlin] PHP Warning:  Attempt to read property "notes" on null in C:\xampp\htdocs\hotel0514\hotel_oop\app\views\rooms\edit.php on line 14

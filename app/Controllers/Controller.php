@@ -11,7 +11,7 @@ abstract class Controller implements ControllerInterface
     protected Model $model;
     public function __construct(Model $model)
     {
-        $this ->model = $model;
+        $this->model = $model;
     }
     abstract function index();
     abstract function show(int $id);

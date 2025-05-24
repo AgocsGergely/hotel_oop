@@ -44,8 +44,9 @@ class Layout
     <nav class="navbar">
         <ul class="nav-list">
             <li class="nav-button"><a href="/"><button style="button" title="Kezdőlap">Kezdőlap</button></a></li>
-            <li class="nav-button"><a href="/subjects"><button style="button" title="Tantárgyak">Tantárgyak</button></a></li>
-            <li class="nav-button"><a href="/classes"><button style="button" title="Osztályok">Osztályok</button></a></li>
+            <!--<li class="nav-button"><a href="/subjects"><button style="button" title="Tantárgyak">Tantárgyak</button></a></li>
+            <li class="nav-button"><a href="/classes"><button style="button" title="Osztályok">Osztályok</button></a></li>-->
+            <li class="nav-button"><a href="/rooms"><button style="button" title="Osztályok">Vendégek</button></a></li>
             <li class="nav-button">
                 <form action="/install" method="post">
                     <input type="hidden" name="action" value="create_database">
